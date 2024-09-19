@@ -543,6 +543,10 @@ main:nth-child(3) {
     height: 100vh;
     display: grid;
     position: relative;
+
+    margin: 0 auto;
+    padding: 50px 20px;
+    max-width: 900vw;
 }
 
 
@@ -563,6 +567,7 @@ main:nth-child(3)>h1 {
     left: 0;
     right: -620px;
     margin: auto;
+
 }
 
 
@@ -583,29 +588,232 @@ main:nth-child(3)>h4 {
     left: 0;
     right: -730px;
     margin: auto;
+
 }
 
-#skillListBackground{
-    width: 90vw;
-    position: relative;
-     height: 80vh;
-    /*right: 100px;*/
-    top: 145px;
+/*#skillListBackground{*/
+/*    width: 90vw;*/
+/*    position: relative;*/
+/*     height: 80vh;*/
+/*    !*right: 100px;*!*/
+/*    top: 100px;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*}*/
+
+
+#usingnowContent{
+
+    color: white;
+
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1vw;
+
+    position: absolute;
+    top: 150px;
     bottom: 0;
     left: 0;
     right: 0;
+    /*z-index: 1;*/
     margin: auto;
 }
-main:nth-child(3)>section:nth-child(1){
+
+#UsingNowfirstLanguages{
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-around;
+    /*display: inline;*/
+    top: 200px;
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: auto;*/
 }
 
-main:nth-child(3)>section:nth-child(1)>h3 {
+#cssLogo{
 
 }
+
+
+#UsingNowsecondLanguages{
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+
+    /*display: inline;*/
+    top: 400px;
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: auto;*/
+}
+
+
+#seemore1{
+        display: block;
+        /*margin: 30px auto;*/
+        padding: 10px 25px;
+        background-color: #007bff;
+         position: absolute;
+    left: 1000px;
+        top: 600px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+}
+
+
+#LearningContent{
+
+    color: white;
+
+    font-family: "Hammersmith One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 1vw;
+
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 1;*/
+    margin: auto;
+}
+
+#LearningLanguage{
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+
+    /*display: inline;*/
+    top: 800px;
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*margin: auto;*/
+}
+
+
+/*#seemore2{*/
+/*    display: block;*/
+/*    !*margin: 30px auto;*!*/
+/*    padding: 10px 25px;*/
+/*    background-color: #007bff;*/
+/*    position: absolute;*/
+/*    left: 1000px;*/
+/*    top: 950px;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+/*!* Skills section container *!*/
+/*main:nth-child(3) section {*/
+/*    display: flex;*/
+/*    grid-template-columns: repeat(3,1fr);*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+
+/*!*main:nth-child(3)>section:nth-child(1){*!*/
+/*!*    position: absolute;*!*/
+/*!*    display: grid;*!*/
+/*!*    grid-template-columns: repeat(2,1fr);*!*/
+/*!*    justify-content: space-around;*!*/
+/*!*}*!*/
+
+
+
+
+/*!* Skill container for each skill *!*/
+/*main:nth-child(3) section:nth-child(1)~div {*/
+/*    width: 22%;*/
+/*    margin: 15px;*/
+/*    padding: 20px;*/
+/*    background-color: #f9f9f9;*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+/*    text-align: center;*/
+/*    transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+/*}*/
+
+/*main:nth-child(3) section:nth-child(1)~div :hover {*/
+/*    transform: translateY(-5px);*/
+/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*!* Skill images *!*/
+/*main:nth-child(3) section:nth-child(1) div img {*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*main:nth-child(3) section:nth-child(1) div picture {*/
+/*    display: block;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*!* Skill text *!*/
+/*main:nth-child(3) section:nth-child(1) div p {*/
+/*    font-size: 16px;*/
+/*    line-height: 1.5;*/
+/*    color: #555;*/
+/*}*/
+
+/*!* Button styling *!*/
+/*#seemore1 {*/
+/*    display: block;*/
+/*    margin: 30px auto;*/
+/*    padding: 10px 25px;*/
+/*    background-color: #007bff;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    transition: background-color 0.3s ease;*/
+/*}*/
+
+/*input[type="button"]:hover {*/
+/*    background-color: #0056b3;*/
+/*}*/
+
+/*!* Responsive styling for tablets *!*/
+/*@media (max-width: 800px) {*/
+/*    main:nth-child(3)>section:nth-child(1) div {*/
+/*        width: 45%;*/
+/*    }*/
+/*}*/
+
+
+
+
+
+
+
+
+
 
 
 
