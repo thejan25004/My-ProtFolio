@@ -90,3 +90,159 @@
 /* !*    position: absolute;*!*/
 
 /* !*}*!*/
+
+
+
+/*              !*-----------EDUCATION PAGE-----------*!*/
+
+/*main:nth-child(4){*/
+/*    background: linear-gradient(#E5E5E5,black);*/
+/*    !*align-items: center;*!*/
+/*    height: 110vh;*/
+/*    !*display: grid;*!*/
+/*    position: relative;*/
+
+/*    margin: 0 auto;*/
+/*    padding: 50px 20px;*/
+/*    max-width: 900vw;*/
+/*}*/
+
+/*#EducationBackgroundImg{*/
+/*    position: relative;*/
+/*    display: grid;*/
+/*    height: 110vh;*/
+/*    margin: 0 auto;*/
+/*    !*padding: 50px 20px;*!*/
+/*    width: 100vw;*/
+/*    left: -40px;*/
+/*    top: -50px;*/
+/*}*/
+
+/*main:nth-child(4)>h1{*/
+/*    width: 40%;*/
+/*    !*color: #383C47;*!*/
+/*    !*color: black;*!*/
+/*    color: #5E5E5E;*/
+/*    font-family: "Hammersmith One", sans-serif;*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*    font-size: 4vw;*/
+
+/*    position: absolute;*/
+/*    justify-content: center;*/
+/*    top: 40px;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: -300px;*/
+/*    margin: auto;*/
+/*    !*z-index: 1;*!*/
+/*}*/
+
+/*main:nth-child(4)>h4{*/
+/*    width: 40%;*/
+/*    !*color: #383C47;*!*/
+/*    !*color: #B3B3B3;*!*/
+/*    color: FFFFFF;*/
+
+/*    font-family: "Hammersmith One", sans-serif;*/
+/*    font-weight: bold;*/
+/*    font-style: normal;*/
+/*    font-size: 2vw;*/
+
+/*    position: absolute;*/
+/*    top: 65px;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: -500px;*/
+/*    margin: auto;*/
+/*}*/
+
+
+/*#educationDetailsSetion{*/
+/*    position: absolute;*/
+/*    top: 200px;*/
+/*    bottom: 0;*/
+/*    left: 150px;*/
+/*    !*right: -400px;*!*/
+/*    margin: auto;*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2,1fr);*/
+/*    justify-content: space-around;*/
+/*    !*padding: 50px 20px;*!*/
+/*    !*column-gap: 120px;*!*/
+/*    row-gap: 100px;*/
+/*    column-gap: 500px;*/
+/*    !*gap: 350px; !* Adjust the gap between items *!*!*/
+
+/*    */
+
+/*}*/
+
+/*#ijsePharagraph{*/
+/*    font-family: 'Arial', sans-serif;  !* Sets the font style *!*/
+/*    font-size: 16px;  !* Sets the size of the text *!*/
+/*    color: #FFD6CC;  !* Sets the text color *!*/
+/*    line-height: 1.6;  !* Adjusts the spacing between lines *!*/
+/*    text-align: justify;  !* Justifies the text *!*/
+/*    margin: 20px 0;  !* Adds space above and below the paragraph *!*/
+/*    padding: 10px;  !* Adds space inside the paragraph *!*/
+/*    background-color: orangered;  !* Sets the background color *!*/
+/*    !*border-left: 4px solid #ccc;  !* Adds a left border for styling *!*!*/
+/*    border-radius: 5px;  !* Rounds the corners *!*/
+/*    width: 35vw;*/
+/*    position: absolute;*/
+/*    !*left: -85px;*!*/
+/*}*/
+
+
+/*#esoftPharagraph{*/
+/*    font-family: 'Arial', sans-serif;  !* Sets the font style *!*/
+/*    font-size: 16px;  !* Sets the size of the text *!*/
+/*    color: #0D47A1 ;  !* Sets the text color *!*/
+/*    line-height: 1.6;  !* Adjusts the spacing between lines *!*/
+/*    text-align: justify;  !* Justifies the text *!*/
+/*    margin: 20px 0;  !* Adds space above and below the paragraph *!*/
+/*    padding: 10px;  !* Adds space inside the paragraph *!*/
+/*    background-color: #E3F2FD ;  !* Sets the background color *!*/
+/*    border-left: 4px solid #ccc;  !* Adds a left border for styling *!*/
+/*    border-radius: 5px;  !* Rounds the corners *!*/
+/*    width: 35vw;*/
+/*    position: absolute;*/
+/*    !*right: 140px;*!*/
+/*}*/
+
+
+
+/*#nsbmpharagraph{*/
+/*    font-family: 'Arial', sans-serif;  !* Sets the font style *!*/
+/*    font-size: 16px;  !* Sets the size of the text *!*/
+/*    color: #1B5E20 ;  !* Sets the text color *!*/
+/*    line-height: 1.6;  !* Adjusts the spacing between lines *!*/
+/*    text-align: justify;  !* Justifies the text *!*/
+/*    margin: 20px 0;  !* Adds space above and below the paragraph *!*/
+/*    padding: 10px;  !* Adds space inside the paragraph *!*/
+/*    background-color: #E8F5E9 ;  !* Sets the background color *!*/
+/*    border-left: 4px solid #ccc;  !* Adds a left border for styling *!*/
+/*    border-radius: 5px;  !* Rounds the corners *!*/
+/*    width: 35vw;*/
+/*    position: absolute;*/
+/*    !*left: -85px;*!*/
+/*    !*top: 700px;*!*/
+/*}*/
+
+/*#britishpharagraph{*/
+/*    font-family: 'Arial', sans-serif;  !* Sets the font style *!*/
+/*    font-size: 16px;  !* Sets the size of the text *!*/
+/*    color: #B71C1C ;  !* Sets the text color *!*/
+/*    line-height: 1.6;  !* Adjusts the spacing between lines *!*/
+/*    text-align: justify;  !* Justifies the text *!*/
+/*    margin: 20px 0;  !* Adds space above and below the paragraph *!*/
+/*    padding: 10px;  !* Adds space inside the paragraph *!*/
+/*    background-color: #FFEBEE ;  !* Sets the background color *!*/
+/*    border-left: 4px solid #ccc;  !* Adds a left border for styling *!*/
+/*    border-radius: 5px;  !* Rounds the corners *!*/
+/*    width: 35vw;*/
+/*    position: absolute;*/
+/*    !*right: 140px;*!*/
+/*    !*top: 900px;*!*/
+/*}*/
