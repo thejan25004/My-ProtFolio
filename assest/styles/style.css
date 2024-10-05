@@ -10,7 +10,7 @@
 html, body {
     margin: 0;
     padding: 0;
-
+    overflow-x: hidden;
 }
 
 /*hero section*/
@@ -97,9 +97,13 @@ main>header>div>img{
 
 
 }
+header * {
+    z-index: 20;
+}
 header>nav {
     /*height eka widiyata content eke hight eka lesa salakanna*/
     height: fit-content;
+    z-index: 50;
 }
 
 
@@ -1494,6 +1498,7 @@ main#GalleryPage {
     height: 100vh;
     padding: 50px 20px;
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -1525,6 +1530,7 @@ main#GalleryPage section {
     margin-top: 150px;
     height: 50vh;
     position: relative;
+    z-index: 0;
 }
 
 /* Stacking and Partial Hiding of Images */
