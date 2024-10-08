@@ -33,9 +33,14 @@
 
     <style>
 
-        @media all and (max-width: 1375px) and (min-width: 920px) {
+        /*LargeLap*/
+        @media all and (max-width: 1440px) and (min-width: 924px) {
 
             /*-----------Hero Section-------------*/
+
+            main:nth-child(1) {
+                height: 100vh;
+            }
 
             main>header>img{
                 width: 8%;
@@ -49,11 +54,12 @@
             }
 
             main>div:nth-child(1)>h1:nth-child(2){
-                     left: 15%;
+                left: 15%;
             }
 
             .profile-pic {
-                width: 55%;
+                width: 50%;
+                right: -25px;
             }
 
             main>div:nth-child(1)>h4{
@@ -62,485 +68,165 @@
 
             .btn-read-more {
                 width: 12%;
+                top: 580px;
             }
 
             .btn-download-cv {
                 width: 12%;
                 left: 300px;
+                top: 572px;
             }
 
             .icon-github {
-                top: 850px;
+
+                top: 700px;
             }
 
             .icon-x {
-                top: 850px;
+                top: 700px;
             }
 
             .icon-email {
-                top: 850px;
+                top: 700px;
 
             }
 
 
-            /*-----------About Section-------------*/
 
+            /*----------------About Page-------------------*/
 
-
-
-
-            /*dp picture background*/
-            main:nth-child(2)>section:nth-child(1)>div>div{
-                width: 80%;
-
+            main:nth-child(2) {
+                height: 130vh;
             }
+        }
 
-            main:nth-child(2)>section:nth-child(1)>div>picture{
-               top: -410px;
 
+        /*smallLap*/
+        @media all and (max-width: 1024px) and (min-width: 880px) {
+
+            /*-----------Hero Section-------------*/
+
+            main:nth-child(1) {
+                height: 100vh;
             }
-
-            main:nth-child(2)>section:nth-child(2)>div:nth-child(1)>h1 {
-                left: 150px;
-                top: -390px;
-            }
-
-            main:nth-child(2)>section:nth-child(2)>div:nth-child(1)>h4 {
-                left: 168px;
-                top: -375px;
-            }
-
-            #fpharagraph{
-                left: 120px;
-            }
-
-            #detailspharagraph{
-                font-size: 1em;
-                width: 700px;
-                left: -30px;
+            main>header>img{
+                width: 8%;
+                margin-left: 10px;
+                margin-top: 6px;
             }
 
 
-            #detailspharagraph2{
-                z-index: -10;
+            main>header>div{
+                margin-top: 15px;
+                width: 25%;
+                left: 15%;
+
             }
 
-            #detailspharagraph3{
-                z-index: -10;
+            header>nav>ul>li {
+                margin: 10px;
+                font-size: 110%;
             }
 
-            #about-read-more{
-                top: 100px;
-                left: 190px;
+
+            header>nav>ul{
+                right: 2px;
+
             }
 
-            #about-download-cv{
-                top: 100px;
-                left: 300px;
+            main>div:nth-child(1)>h1:nth-child(2){
+                left: 15%;
             }
 
-            main:nth-child(2)>section:nth-child(2)>div:nth-child(3){
+            main>div:nth-child(1)>h1:nth-child(3){
                 top: 200px;
             }
 
-
-            /*-----------Skill Section-------------*/
-
-            main:nth-child(3) {
-                height: 190vh;
-            }
-
-            main:nth-child(3)>h1 {
-                left: -300px;
-            }
-
-            main:nth-child(3)>h4 {
-                left: -320px;
-                top: 75px;
-            }
-
-            #UsingNowfirstLanguages{
-                left: -5px;
-            }
-
-            #cssLogo{
-                left: 5px;
+            .profile-pic {
                 width: 50%;
-            }
-            #cssCircle{
-                left: 200px;
-                width: 15%;
-                top: 70px;
+                right: -20px;
+                top: 200px;
             }
 
-            #cssPorcentaje{
-                left: 270px;
-                top: 190px;
-            }
-
-            #cssHighlight{
-                left: 40px;
-            }
-
-            #cssPharagraph1 ,#cssPharagraph2 {
-                left: 90px;
-            }
-
-            #htmlLogo{
-                left: 500px;
-                width: 50%;
-            }
-
-            #htmlCircle{
-                left: 620px;
-                width: 15%;
-                top: 50px;
-            }
-
-            #htmlProcentaje{
-                left: 690px;
-                top: 190px;
-            }
-
-            #htmlHighlight{
-                left: 550px;
-            }
-
-            #htmlPharagraph1{
-                left: 620px;
-                width: 20%;
-            }
-
-            #htmlPharagraph2{
-                top: 335px;
-                left: 620px;
-                width: 20%;
-            }
-
-
-            #jscircle{
-                left: 990px;
-                width: 15%;
-                top: 80px;
-            }
-
-            #jsProcentaje{
-                left: 1070px;
-                top: 185px;
-            }
-
-            #jsHighlight{
-                left: 950px;
-            }
-
-            #jsPharagraph1{
-                left: 980px;
-                width: 100%;
-            }
-
-            #jsPharagraph2{
-                left: 980px;
-                top: 325px;
-                width: 100%;
-
-            }
-
-            #UsingNowsecondLanguages{
-
-                left: 380px;
-            }
-
-            #githubcircle{
-                top: 60px;
-                width: 23%;
-
-            }
-
-            #gitHubProcentaje{
-                top: 180px;
-                left: 120px;
-            }
-
-            #gitHubHighlight{
-                left: -160px;
-            }
-
-            #gitPharagraph1 ,#gitPharagraph2{
-                left: -60px;
-                width: 30%;
-
-            }
-
-            #figmacircle{
-                /*left: 990px;*/
-                width: 20%;
-                top: 75px;
-                left: 380px;
-            }
-
-
-            #figmaProcentaje{
-                top: 170px;
-                left: 450px;
-            }
-
-            #figmaHighlight{
+            main>div:nth-child(1)>h4{
                 top: 290px;
-                left: 350px;
-            }
-
-            #figmaPharagraph1 , #figmaPharagraph2{
-                left: 425px;
-            }
-
-            #seemore1{
-                left: 600px;
             }
 
 
-            #LearningLanguage{
-                left: 2px;
+
+            .btn-read-more {
+                width: 12%;
+                top: 500px;
             }
 
-            #nodeJsLogo{
-                top: 80px;
-                left: 600px;
+            .btn-download-cv {
+                width: 13%;
+                left: 285px;
+                top: 490px;
             }
 
-            #mongoDbLogo{
-                top: 2px;
-                left: 800px;
+            .icon-github {
+                top: 700px;
             }
 
-            /*-----------Education Section-------------*/
+            .icon-x {
+                top: 700px;
+            }
 
-            main:nth-child(4){
+            .icon-email {
+                top: 700px;
+
+            }
+
+
+            /*----------------About Page-------------------*/
+
+            main:nth-child(2) {
                 height: 130vh;
-            }
-
-            #EducationBackgroundImg{
-                left: -20px;
-                height: 130vh;
-            }
-
-            main:nth-child(4)>h1{
-                left: -85px;
-            }
-
-
-            main:nth-child(4)>h4{
-                left: -120px;
-                top: 55px;
-            }
-
-            #educationDetailsSetion{
-                left: 55px;
-            }
-
-            #educationDetailsSetion img {
-                width: 95%;
-            }
-
-
-            /*-----------Services Section-------------*/
-
-            main:nth-child(5) {
-                height: 110vh;
-            }
-
-            main:nth-child(5)>h1 {
-                left: -95px;
-            }
-
-            main:nth-child(5)>h4 {
-                left: -120px;
-                top: 96px;
-            }
-
-
-            #serviceSection {
-                width: 100%;
-                left: 10px;
-            }
-
-            .fpharagraph{
-                width: 35%;
-            }
-
-            #lpharagraph{
-                width: 50%;
-
-            }
-
-            #lastServiceSexction div{
-                margin: 50px;
-            }
-
-
-            /*-----------Services Section-------------*/
-
-            main#GalleryPage {
-                height: 90vh;
-            }
-
-            main#GalleryPage > h4 {
-                top: 90px;
-            }
-
-
-            main#GalleryPage section {
-                top:-140px;
-                left: -15px;
-            }
-
-            main#GalleryPage section picture:nth-child(1) {
-                top: 130px;
-            }
-
-
-
-
-
-            /*-----------Assignment Section-------------*/
-
-
-            #assignmentPage h1 {
-                left: 500px;
-            }
-
-            #assignmentPage h4 {
-                left: 590px;
-                top: 100px;
-            }
-
-            #assignmentPage img[alt="BackgroundImage"] {
-                width: 110%;
-                left: -100px;
-            }
-
-            #leftSideAssignment{
-                width: 50%;
-                left: 40px;
-            }
-
-            #assignmentPage section:nth-of-type(2) {
-                width: 50%;
-                right: 250px;
-            }
-
-            #leftSideAssignment div {
-                width: 150%;
-            }
-
-            #assignmentPage section:nth-of-type(2) div {
-                width: 150%;
-            }
-
-            #assignmentPage section:nth-of-type(1) h6 {
-                left: 200px;
-            }
-
-            #assignmentPage section:nth-of-type(2) h6 {
-                left: 200px;
-            }
-
-            .leftAssignmentPharagraph{
-                left: 150px;
-            }
-
-            .AssignmentPharagraph{
-                left: 150px;
-            }
-
-
-            /*-----------Blog Post Section-------------*/
-
-            main#blogPostPage > h4 {
-                top:90px ;
-            }
-
-            #blog-post1 {
-                left: 15px;
-            }
-
-            #center-blog-post{
-                left: 450px;
-                height: 88vh;
-            }
-
-            #blog-post2 {
-                right: 14px;
-            }
-
-
-            /*-----------Blog Post Section-------------*/
-
-            #contactPage > h4 {
-                top:60px ;
-            }
-
-            .contact-container {
-                left: 100px;
-                width: 100%;
-            }
-
-            .contact-form {
-                width: 90%;
-            }
-
-            .form-group label {
-                left: 120px;
-                width: 50%;
-            }
-            #formOfCustomer{
-                top: 180px;
-                left: 90px;
-
-            }
-
-            .contact-form h3 {
-                top: 90px;
-            }
-
-
-            /*-----------Footer Section-------------*/
-
-
-            #contentOfFooter{
-                left: 600px;
             }
 
         }
 
+        /*tablet*/
+        @media  (max-width: 768px) {
 
-
-        @media all and (max-width: 919px) and (min-width: 650px) {
-
+            /*-----------Hero Section-------------*/
 
             main:nth-child(1) {
-                height: 110vh;
+                height: 100vh;
             }
 
             main>header {
-                height: 60px;
+                height: 7%;
             }
-
             main>header>img{
                 width: 8%;
-                margin-top: 10px;
+                margin-left: 10px;
+                margin-top: 6px;
             }
+
 
             main>header>div{
-                left: 180px;
-                width: 65%;
+                margin-top: 10px;
+                width: 25%;
+                left: 15%;
+
             }
 
+            header>nav>ul>li {
+                margin: 5px;
+                font-size: 90%;
+            }
+
+
             header>nav>ul{
-               display: none;
+
+                right: 2px;
+
             }
 
             main>div:nth-child(1)>h1:nth-child(1){
-                left: -100px;
+                left: -60px;
             }
 
             main>div:nth-child(1)>h1:nth-child(2){
@@ -548,194 +234,198 @@
             }
 
             main>div:nth-child(1)>h1:nth-child(3){
-                left: -100px;
-                top: 180px;
-            }
-
-            main>div:nth-child(1)>h4{
-                top: 260px;
-                left: -100px;
+                left: -60px;
+                top: 170px;
             }
 
             .profile-pic {
                 width: 60%;
+                right: -20px;
+                top: 210px;
             }
 
-            .btn {
-                top: 430px;
+            main>div:nth-child(1)>h4{
+                top: 250px;
+                left: -60px;
             }
+
+
 
             .btn-read-more {
                 width: 14%;
-                height: 6vh;
-                left: 15px;
+                top: 460px;
+                left: 20px;
             }
 
             .btn-download-cv {
                 width: 15%;
-                height: 6vh;
-                text-align: center;
-                left: 170px;
-            }
-
-
-            .icon-github , .icon-x , .icon-email   {
-                top: 590px;
-            }
-
-            /*----------------About Page-------------------*/
-
-            main:nth-child(2) {
-                height: 150vh;
-            }
-
-
-
-        }
-
-
-
-
-
-        @media all and (max-width: 649px) and (min-width: 426px) {
-
-
-            main:nth-child(1) {
-                height: 100vh;
-            }
-
-            main>header {
-
-                height: 50px;
-            }
-
-            main>header>img{
-                width: 9%;
-                margin-left: 10px;
-                margin-top: 10px;
-            }
-
-            main>header>div{
-                font-size: 50%;
-                left: 100px;
-                height: 0.5%;
-                width: 60%;
-            }
-
-            main>header>div>img{
-                width: 5%;
-                height: 2vh;
-                margin-bottom: 12px;
-                /*display: none;*/
-            }
-
-
-
-            header>nav>ul{
-                display: none;
-
-            }
-
-            main>div:nth-child(1)>h1:nth-child(1){
-                left: -100px;
-                font-size: 15vw;
-                top: -30px;
-            }
-
-            main>div:nth-child(1)>h1:nth-child(2){
-                top: -30px;
-                left: 10px;
-                font-size: 15vw;
-            }
-
-            main>div:nth-child(1)>h1:nth-child(3){
-                left: -100px;
-                top: 80px;
-                font-size: 15vw;
-            }
-
-            main>div:nth-child(1)>h4{
-font-size: 3vw;
-                top: 150px;
-                left: -100px;
-            }
-
-            .profile-pic {
-                width: 80%;
                 left: 150px;
-                top: 250px;
+                top: 456px;
             }
 
-            .btn {
-                top: 300px;
+            .icon-github {
+                top: 700px;
             }
 
-            .btn-read-more {
-                font-size: 2vw;
-
-                width: 20%;
-                height: 5vh;
-                left: -15px;
+            .icon-x {
+                top: 700px;
             }
 
-            .btn-download-cv {
-                font-size: 2vw;
-                width: 23%;
+            .icon-email {
+                top: 700px;
 
-                height: 1vh;
-                text-align: center;
-                left: 100px;
-            }
-
-
-            .icon-github , .icon-x , .icon-email   {
-                width: 6%;
-
-                height: 4vh;
-                top: 600px;
             }
 
 
             /*----------------About Page-------------------*/
 
             main:nth-child(2) {
-                height: 150vh;
+                height: 130vh;
             }
 
         }
 
+        /* Styles for small mobile devices */
+        @media (max-width: 320px) {
 
-        @media all and (max-width: 425px) {
 
             main:nth-child(1) {
                 height: 100vh;
             }
 
             main>header {
-
-                height: 50px;
+                height: 7%;
             }
-
             main>header>img{
-                width: 9%;
-                height: 5vh;
+                width: 16%;
+                height: 40px;
                 margin-left: 10px;
-
+                margin-top: 6px;
             }
+
 
             main>header>div{
-                font-size: 50%;
-                left: 100px;
-                height: 0.5%;
+                margin-top: 10px;
+                font-size: 3vw;
                 width: 60%;
+                left: 25%;
+
+
             }
 
-            main>header>div>img{
-                width: 5%;
-                height: 2vh;
-                margin-bottom: 12px;
-                /*display: none;*/
+
+
+
+            header>nav>ul{
+               display: none;
+
             }
+
+            main>div:nth-child(1)>h1:nth-child(1){
+                top: 10px;
+                left: -140px;
+                font-size: 18vw;
+            }
+
+            main>div:nth-child(1)>h1:nth-child(2){
+                top: 15px;
+                left: -40px;
+                font-size: 16vw;
+            }
+
+            main>div:nth-child(1)>h1:nth-child(3){
+                top: 110px;
+                left: -140px;
+                font-size: 18vw;
+            }
+
+            .profile-pic {
+                width: 100%;
+                right: -60px;
+                top: 350px;
+
+            }
+
+            main>div:nth-child(1)>h4{
+
+
+                width: 100%;
+                font-size: 10px;
+
+                top: 177px;
+                color: black;
+                left: -120px;
+
+            }
+
+
+
+            .btn-read-more {
+                width: 25%;
+
+                height: 3vh;
+                top: 360px;
+                left: -20px;
+                font-size: 2vw;
+            }
+
+            .btn-download-cv {
+                width: 25%;
+                z-index: 1;
+                height: 3vh;
+                top: 356px;
+                left: 65px;
+                font-size: 3vw;
+            }
+
+            .icon-github {
+               left: -10px;
+                top: 720px;
+            }
+
+            .icon-x {
+                left: -10px;
+                top: 680px;
+            }
+
+            .icon-email {
+                left: -10px;
+                top: 640px;
+
+            }
+
+        }
+
+
+        /* Styles for medium mobile devices */
+        @media (min-width: 321px) and (max-width: 375px) {
+
+
+
+            main:nth-child(1) {
+                height: 100vh;
+            }
+
+            main>header {
+                height: 7%;
+            }
+            main>header>img{
+                width: 16%;
+                height: 40px;
+                margin-left: 10px;
+                margin-top: 6px;
+            }
+
+
+            main>header>div{
+                margin-top: 10px;
+                font-size: 3vw;
+                width: 60%;
+                left: 25%;
+
+
+            }
+
 
 
 
@@ -745,73 +435,197 @@ font-size: 3vw;
             }
 
             main>div:nth-child(1)>h1:nth-child(1){
-                left: -100px;
-                font-size: 15vw;
-                top: -30px;
+                top: 10px;
+                left: -130px;
+                font-size: 18vw;
             }
 
             main>div:nth-child(1)>h1:nth-child(2){
-                top: -30px;
-                left: 10px;
-                font-size: 15vw;
+                top: 15px;
+                left: -30px;
+                font-size: 16vw;
             }
 
             main>div:nth-child(1)>h1:nth-child(3){
-                left: -100px;
-                top: 80px;
-                font-size: 15vw;
-            }
-
-            main>div:nth-child(1)>h4{
-                color: slategray;
-                font-size: 3vw;
-                top: 150px;
-                left: -100px;
+                top: 110px;
+                left: -130px;
+                font-size: 18vw;
             }
 
             .profile-pic {
-                width: 85%;
-                left: 120px;
+                width: 100%;
+                right: -100px;
                 top: 350px;
+
             }
 
-            .btn {
-                top: 320px;
+            main>div:nth-child(1)>h4{
+
+
+                width: 100%;
+                font-size: 10px;
+
+                top: 177px;
+                color: black;
+                left: -120px;
+
             }
+
+
 
             .btn-read-more {
-                font-size: 2vw;
+                width: 25%;
 
-                width: 20%;
-                height: 4vh;
-                left: -15px;
+                height: 3vh;
+                top: 360px;
+                left: -20px;
+                font-size: 2vw;
             }
 
             .btn-download-cv {
-                font-size: 2vw;
-                width: 23%;
-
-                height: 1vh;
-                text-align: center;
-                left: 100px;
+                width: 30%;
+                z-index: 1;
+                height: 3vh;
+                top: 356px;
+                left: 80px;
+                font-size: 3vw;
             }
 
-
-            .icon-github , .icon-x , .icon-email   {
-                width: 7%;
-                margin-left: -5px;
-                height: 4vh;
-                top: 780px;
+            .icon-github {
+                left: -5px;
+                top: 720px;
             }
 
-
-            /*----------------About Page-------------------*/
-
-            main:nth-child(2) {
-                height: 150vh;
+            .icon-x {
+                left: -5px;
+                top: 680px;
             }
+
+            .icon-email {
+                left: -5px;
+                top: 640px;
+
+            }
+
 
         }
+
+
+
+        /* Styles for large mobile devices */
+        @media (min-width: 376px) and (max-width: 425px) {
+
+
+            main:nth-child(1) {
+                height: 100vh;
+            }
+
+            main>header {
+                height: 7%;
+            }
+            main>header>img{
+                width: 16%;
+                height: 40px;
+                margin-left: 10px;
+                margin-top: 6px;
+            }
+
+
+            main>header>div{
+                margin-top: 10px;
+                font-size: 3vw;
+                width: 60%;
+                left: 25%;
+
+
+            }
+
+
+
+
+            header>nav>ul{
+                display: none;
+
+            }
+
+            main>div:nth-child(1)>h1:nth-child(1){
+                top: 10px;
+                left: -130px;
+                font-size: 18vw;
+            }
+
+            main>div:nth-child(1)>h1:nth-child(2){
+                top: 15px;
+                left: -10px;
+                font-size: 16vw;
+            }
+
+            main>div:nth-child(1)>h1:nth-child(3){
+                top: 110px;
+                left: -130px;
+                font-size: 18vw;
+            }
+
+            .profile-pic {
+                width: 100%;
+                right: -100px;
+                top: 350px;
+
+            }
+
+            main>div:nth-child(1)>h4{
+
+
+                width: 100%;
+                font-size: 10px;
+
+                top: 182px;
+                color: black;
+                left: -120px;
+
+            }
+
+
+
+            .btn-read-more {
+                width: 25%;
+
+                height: 3vh;
+                top: 360px;
+                left: -20px;
+                font-size: 2vw;
+            }
+
+            .btn-download-cv {
+                width: 30%;
+                z-index: 1;
+                height: 3vh;
+                top: 356px;
+                left: 95px;
+                font-size: 3vw;
+            }
+
+            .icon-github {
+                left: -5px;
+                top: 720px;
+            }
+
+            .icon-x {
+                left: -5px;
+                top: 680px;
+            }
+
+            .icon-email {
+                left: -5px;
+                top: 640px;
+
+            }
+        }
+
+
+
+
+
 
 
 
