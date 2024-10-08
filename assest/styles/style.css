@@ -306,13 +306,15 @@ main:nth-child(2) {
 /*picture side section*/
 main:nth-child(2)>section:nth-child(1){
     position: relative;
+    height: 80vh;
+    top: 400px;
 }
 
 
 /*dp picture*/
 main:nth-child(2)>section:nth-child(1)>div>picture{
     position: absolute;
-    top: -430px;
+    top: -400px;
     left: 90px;
     width: 20vw;
 
