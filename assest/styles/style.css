@@ -1031,7 +1031,7 @@ main:nth-child(4)>h4{
 #educationDetailsSetion {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px 100px;
+
     width: 80vw;
     margin: 0 auto;
     justify-items: center;
@@ -1046,14 +1046,18 @@ main:nth-child(4)>h4{
         justify-content: space-around;
         /*padding: 50px 20px;*/
         column-gap: 300px;
-        row-gap: 100px;
+        /*row-gap: 50px;*/
         /*column-gap: 500px;*/
         /*gap: 350px; !* Adjust the gap between items *!*/
+
+
+
 
 }
 
 #educationDetailsSetion div {
     text-align: center;
+    justify-content: space-around;
 }
 
 
