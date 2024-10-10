@@ -260,6 +260,7 @@ main>div:nth-child(1)>h4{
     bottom: 0;
     top: 50px;
     display: flex;
+    margin-bottom: 0;
 }
 
 .icon-github {
@@ -615,41 +616,29 @@ main:nth-child(3)>h4 {
 }
 
 #UsingNowfirstLanguages{
-    position: absolute;
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: space-around;
-    top: 300px;
+    /*justify-content: space-between;*/
+    /*justify-content: space-between;*/
+    top: -200px;
     left: 110px;
 
+
+
 }
+
+
 
 #cssLogo{
         position: absolute;
         left: 90px;
-        width: 38vw;
+         width: 20vw;
 
 
 }
 
-#cssCircle{
-   position: absolute;
-    top: 100px;
-    left: 350px;
-    width: 9%;
-}
 
-#cssPorcentaje{
-    position: absolute;
-    top: 205px;
-    left: 410px;
-    width: 9%;
-    font-size: 2em;
-    font-weight: bold;
-
-    font-family: "Hammersmith One", sans-serif;
-    font-style: normal;
-}
 
 #cssHighlight{
     position: absolute;
@@ -666,7 +655,7 @@ main:nth-child(3)>h4 {
     position: absolute;
     top: 290px;
     left: 190px;
-
+    width: 16vw;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -674,48 +663,19 @@ main:nth-child(3)>h4 {
 
 }
 
-#cssPharagraph2{
-    position: absolute;
-    top: 310px;
-    left: 190px;
-
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1em;
-
-}
 
 #htmlLogo{
     position: absolute;
     left: 750px;
+    width: 15vw;
 
-}
-
-#htmlCircle{
-    position: absolute;
-    top: 100px;
-    left: 950px;
-    width: 9%;
-
-}
-
-#htmlProcentaje{
-    position: absolute;
-    top: 215px;
-    left: 1010px;
-    width: 9%;
-    font-size: 2em;
-    font-weight: bold;
-
-    font-family: "Hammersmith One", sans-serif;
-    font-style: normal;
 }
 
 #htmlHighlight{
     position: absolute;
+    left: 750px;
+    width: 15vw;
     top: 300px;
-    left: 760px;
 
     font-family: "Hammersmith One", sans-serif;
     font-weight: bold;
@@ -723,11 +683,12 @@ main:nth-child(3)>h4 {
     font-size: 2rem;
 }
 
+
 #htmlPharagraph1{
     position: absolute;
     top: 300px;
     left: 820px;
-
+    width: 16vw;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -735,44 +696,23 @@ main:nth-child(3)>h4 {
 
 }
 
-#htmlPharagraph2{
-    position: absolute;
-    top: 320px;
-    left: 820px;
 
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
+
+#javaScriptLogo{
+      /*width: 50%;*/
+    width: 15vw;
+    left: 1300px;
+    position: absolute;
+
 }
 
 
 
-#jscircle{
-    position: absolute;
-    top: 130px;
-    left: 1550px;
-    width: 9%;
-}
-
-
-
-#jsProcentaje{
-    position: absolute;
-    top: 215px;
-    right: 200px;
-    width: 9%;
-    font-size: 2em;
-    font-weight: bold;
-
-    font-family: "Hammersmith One", sans-serif;
-    font-style: normal;
-}
 
 #jsHighlight{
     position: absolute;
     top: 300px;
-    right: 570px;
+    left: 1300px;
 
     font-family: "Hammersmith One", sans-serif;
     font-weight: bold;
@@ -783,8 +723,8 @@ main:nth-child(3)>h4 {
 #jsPharagraph1{
     position: absolute;
     top: 305px;
-    right: 200px;
-
+    left: 1350px;
+    width: 16vw;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -803,14 +743,13 @@ main:nth-child(3)>h4 {
 }
 
 #UsingNowsecondLanguages{
-    position: absolute;
+    position: relative;
 
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-around;
 
-
-    top: 800px;
+    top: 350px;
     left: 660px;
 
 }
@@ -819,27 +758,9 @@ main:nth-child(3)>h4 {
 #gitHubLogo{
     position: absolute;
     left: -130px;
-    width: 450px;
+    width: 20vw;
 }
 
-#githubcircle{
-    position: absolute;
-    top: 80px;
-    left: 35px;
-    width: 15%;
-}
-
-#gitHubProcentaje{
-    position: absolute;
-    top: 190px;
-    left: 110px;
-    width: 15%;
-    font-size: 2em;
-    font-weight: bold;
-
-    font-family: "Hammersmith One", sans-serif;
-    font-style: normal;
-}
 
 #gitHubHighlight{
     position: absolute;
@@ -856,27 +777,19 @@ main:nth-child(3)>h4 {
     position: absolute;
     top: 310px;
     left: 5px;
-
+    width: 360px;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
 }
 
-#gitPharagraph2{
-    position: absolute;
-    top: 295px;
-    left: 5px;
-
-    font-family: "Hammersmith One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-}
 
 
 #figmaLogo{
-   width: 100vw;
+   width: 7vw;
+   position: absolute;
+    left: 550px;
 
 }
 
@@ -902,7 +815,7 @@ main:nth-child(3)>h4 {
 #figmaHighlight{
     position: absolute;
     top: 300px;
-    left: 500px;
+    left: 550px;
 
     font-family: "Hammersmith One", sans-serif;
     font-weight: bold;
@@ -913,8 +826,8 @@ main:nth-child(3)>h4 {
 #figmaPharagraph1{
     position: absolute;
     top: 310px;
-    left: 580px;
-
+    left: 620px;
+    width: 400px;
     font-family: "Hammersmith One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -947,6 +860,15 @@ main:nth-child(3)>h4 {
         cursor: pointer;
         font-size: 16px;
         transition: background-color 0.3s ease;
+
+
+    /*display: flex;*/
+    /*justify-content: center; !* Horizontally center the text *!*/
+    /*align-items: center; !* Vertically center the text *!*/
+    /*text-align: left; !* Make sure text alignment is centered *!*/
+    /*!*text-align-all: left;*!*/
+    /*height: 2%; !* Ensure the button has enough height *!*/
+    /*width: 6%;*/
 }
 
 
@@ -973,7 +895,7 @@ main:nth-child(3)>h4 {
 
 #LearningLanguage{
     position: absolute;
-  left: 130px;
+    left: 350px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-around;
@@ -981,11 +903,12 @@ main:nth-child(3)>h4 {
 
 }
 
-#\ mySqlLogo{
-    position: absolute;
-    left: 200px;
-    top: 100px;
-    width: 70vw;
+#mySqlLogo {
+    position: relative; /* Changing from absolute for better grid handling */
+    width: 20vw; /* Set width for visibility */
+    height: auto; /* Keep height proportional */
+    display: block; /* Ensure the image is rendered as a block */
+    margin: 0 auto; /* Center the image */
 }
 
 #mysqlLabel{
