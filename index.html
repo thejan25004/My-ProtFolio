@@ -290,16 +290,31 @@
             }
 
 
+            /*--------------Services Section----------------------*/
+
+            #servicesPage h1 {
+                   left: -65px;
+            }
+
+            #servicesPage h4 {
+                left: -75px;
+            }
+
+            .service{
+                left: 50px;
+                width: 90%;
+                top: 100px;
+            }
         }
 
 
         /*smallLap*/
-        @media all and (max-width: 1024px) and (min-width: 880px) {
+        @media all and (max-width: 1024px) and (min-width: 769px) {
 
             /*-----------Hero Section-------------*/
 
             main:nth-child(1) {
-                height: 100vh;
+                /*height: 100vh;*/
             }
             main>header>img{
                 width: 8%;
@@ -376,7 +391,7 @@
             /*----------------About Page-------------------*/
 
             main:nth-child(2) {
-                height: 120vh;
+                /*height: 120vh;*/
             }
 
             main:nth-child(2)>section:nth-child(1)>div>div{
@@ -602,12 +617,13 @@
             /*---------------EDUCATION PAGE----------------------*/
 
             main:nth-child(4){
-                height: 135vh;
+                /*height: 135vh;*/
             }
 
             #EducationBackgroundImg{
                 left: -20px;
-                height: 135vh;
+
+                /*height: 135vh;*/
             }
 
 
@@ -621,7 +637,7 @@
             }
 
             #educationDetailsSetion {
-                width: 10%;
+                /*width: 10%;*/
                 top: 30px;
                 left: 40px;
 
@@ -632,8 +648,8 @@
 
             #educationDetailsSetion img {
                 margin-left: -10px;
-                width: 80%;
-                height: 60%;
+                /*width: 80%;*/
+                /*height: 60%;*/
             }
 
             #ijsePharagraph,
@@ -643,11 +659,35 @@
                 font-size: 1.25vw;
             }
 
+          /*----------------Services DSection-----------*/
 
+            #servicesPage h1 {
+                 top: 20px;
+                left: -150px;
+            }
+
+            #servicesPage h4 {
+                top: 35px;
+                left: -200px;
+            }
+
+            .service{
+                left: 10px;
+                width: 90%;
+                top: 100px;
+            }
+
+            .maintenance>img{
+                left: 200px;
+            }
+
+            #mainatnLabel{
+                left: 350px;
+            }
         }
 
         /*tablet*/
-        @media  (max-width: 768px) {
+        @media (min-width: 425px) and (max-width: 768px) {
 
             /*-----------Hero Section-------------*/
 
@@ -1011,10 +1051,56 @@
                 font-size: 1.25vw;
             }
 
+            /*----------------Services DSection-----------*/
+
+            #servicesPage h1 {
+                top: 20px;
+                left: -300px;
+            }
+
+            #servicesPage h4 {
+                top: 30px;
+                left: -360px;
+            }
+
+            .service{
+                left: 10px;
+                width: 90%;
+                top: 100px;
+                column-gap: 20px;
+                row-gap: 100px;
+                font-size: 2px;
+            }
+
+            .service>div>label{
+                font-size: 20px;
+            }
+            .service>div>img{
+                width: 40%;
+                height: 65%;
+            }
+
+            .maintenance>p{
+                font-size: 7px;
+
+            }
+
+            .maintenance>img{
+                left: 150px;
+            }
+
+            #mainatnLabel{
+                left: 250px;
+            }
+
+
+            #maintainP{
+                left: 150px;
+            }
         }
 
         /* Styles for small mobile devices */
-        @media (max-width: 375px) {
+        @media (max-width: 320px) {
 
 
             /*------------Hero Section----------*/
@@ -1370,6 +1456,7 @@
 
             #LearningLanguage{
                 top: 980px;
+                left: -150px;
 
             }
 
@@ -1421,8 +1508,8 @@
             }
 
             #educationDetailsSetion {
-                width: 60%;
-                top: 60px;
+                width: 40%;
+                top: 70px;
                 /*left: 30px;*/
                 left: 35px;
                 height: 120vh;
@@ -1446,6 +1533,60 @@
             #britishpharagraph {
                 font-size: 2.5vw;
                 width: 85vw;
+            }
+
+
+
+            /*----------Services Page--------*/
+
+            #servicesPage h1 {
+                left: -400px;
+                top: 20px;
+                font-size: 8vw;
+            }
+
+            #servicesPage h4 {
+                left: -490px;
+                top: 25px;
+                font-size: 5vw;
+            }
+
+
+
+            .service{
+                top: 80px;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 50px;
+                left: 10px;
+
+            }
+            .service>div>img{
+
+                width: 120px;
+                height: 100px;
+            }
+            .service>div>label {
+                font-size: 13px;
+            }
+            .service>div>p{
+                font-size: 11px;
+            }
+
+            .development{
+                top: 500px;
+            }
+
+            #maintainP{
+                font-size: 11px;
+                left: -5px;
+            }
+            .maintenance>img{
+                left: -80px;
+            }
+
+            .maintenance>label{
+
             }
 
         }
@@ -1807,6 +1948,7 @@
 
             #LearningLanguage{
                 top: 980px;
+                left: -150px;
 
             }
 
@@ -1858,7 +2000,7 @@
             }
 
             #educationDetailsSetion {
-                width: 60%;
+
                 top: 60px;
                 /*left: 30px;*/
                 left: 45px;
@@ -1873,8 +2015,9 @@
 
             #educationDetailsSetion img {
                 margin-left: -10px;
-                width: 60%;
+                width: 50%;
                 height: 60%;
+
             }
 
             #ijsePharagraph,
@@ -1883,6 +2026,83 @@
             #britishpharagraph {
                 font-size: 2.5vw;
                 width: 85vw;
+            }
+
+
+            #servicesPage h1 {
+                left: -360px;
+                top: 20px;
+                font-size: 8vw;
+            }
+
+            #servicesPage h4 {
+                left: -430px;
+                top: 28px;
+                font-size: 5vw;
+            }
+
+
+
+            .service{
+                top: 80px;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 50px;
+
+
+
+            }
+
+            /*----------Services Page--------*/
+
+            #servicesPage h1 {
+                left: -360px;
+                top: 20px;
+                font-size: 8vw;
+            }
+
+            #servicesPage h4 {
+                left: -430px;
+                top: 28px;
+                font-size: 5vw;
+            }
+
+
+
+            .service{
+                top: 80px;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 50px;
+                left: 10px;
+
+            }
+            .service>div>img{
+
+                width: 120px;
+                height: 100px;
+            }
+            .service>div>label {
+                font-size: 13px;
+            }
+            .service>div>p{
+                font-size: 11px;
+            }
+
+            .development{
+                top: 500px;
+            }
+
+            #maintainP{
+                font-size: 11px;
+                left: -5px;
+            }
+            .maintenance>img{
+                left: -95px;
+            }
+
+            .maintenance>label{
+
             }
         }
 
@@ -2327,6 +2547,66 @@
                 font-size: 2.5vw;
                 width: 85vw;
             }
+
+
+            /*----------------Service Page---------------*/
+
+
+
+            #servicesPage h1 {
+                left: -360px;
+                top: 20px;
+                font-size: 8vw;
+            }
+
+            #servicesPage h4 {
+                left: -430px;
+                top: 28px;
+                font-size: 5vw;
+            }
+
+
+
+            .service{
+                top: 80px;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                row-gap: 50px;
+
+
+
+            }
+            .service>div>img{
+
+                width: 120px;
+                height: 100px;
+            }
+            .service>div>label {
+                font-size: 13px;
+            }
+            .service>div>p{
+                font-size: 11px;
+            }
+
+            .development{
+                top: 500px;
+            }
+
+            #maintainP{
+                font-size: 11px;
+                left: -5px;
+            }
+            .maintenance>img{
+                left: -110px;
+            }
+
+            .maintenance>label{
+
+            }
+
+
+
+
         }
 
 
@@ -2655,7 +2935,7 @@
 <!--   EDUCATION PAGE -->
     <main id="EducationPage">
 
-        <img src="assest/images/educationImages/Wallpaper2.png" id="EducationBackgroundImg">
+<!--        <img src="assest/images/educationImages/Wallpaper2.png" id="EducationBackgroundImg">-->
 
 
 
@@ -2709,8 +2989,8 @@
         </div>
         <div class="maintenance" >
             <img src="assest/images/servicesImages/maintaince.png"  alt="maintenance">
-            <label>Maintenance</label>
-            <p>  I offer ongoing maintenance and support to ensure your website remains secure, up-to-date, and performing at its best. From security updates to content updates, I've got you covered.</p>
+            <label id="mainatnLabel">Maintenance</label>
+            <p id="maintainP">  I offer ongoing maintenance and support to ensure your website remains secure, up-to-date, and performing at its best. From security updates to content updates, I've got you covered.</p>
         </div>
     </section>
 </main>
