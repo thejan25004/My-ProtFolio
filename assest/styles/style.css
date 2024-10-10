@@ -1444,6 +1444,7 @@ main#GalleryPage section {
 main#GalleryPage section picture {
     position: absolute;
     width: 20vw;
+    height: auto;
     border-radius: 10px;
     opacity: 0.9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -1503,32 +1504,32 @@ main#GalleryPage section picture img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
- Responsive adjustments for smaller screens
-@media (max-width: 800px) {
-    main#GalleryPage {
-        height: auto;
-    }
+/* Responsive adjustments for smaller screens*/
+/*@media (max-width: 800px) {*/
+/*    main#GalleryPage {*/
+/*        height: auto;*/
+/*    }*/
 
-    main#GalleryPage > h1 {
-        font-size: 5vw;
-    }
+/*    main#GalleryPage > h1 {*/
+/*        font-size: 5vw;*/
+/*    }*/
 
-    main#GalleryPage > h4 {
-        font-size: 3vw;
-    }
+/*    main#GalleryPage > h4 {*/
+/*        font-size: 3vw;*/
+/*    }*/
 
-    main#GalleryPage section {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
+/*    main#GalleryPage section {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        height: auto;*/
+/*    }*/
 
-    main#GalleryPage section picture {
-        width: 80%;
-        margin-bottom: 20px;
-        transform: none; /* Remove stacking on mobile */
-    }
-}
+/*    main#GalleryPage section picture {*/
+/*        width: 80%;*/
+/*        margin-bottom: 20px;*/
+/*        transform: none; !* Remove stacking on mobile *!*/
+/*    }*/
+/*}*/
 
 
 
@@ -1545,7 +1546,7 @@ main#GalleryPage section picture img {
     text-align: center;
     padding: 20px;
     /*background-color: #292C35;*/
-    background-color: black;
+    background-color: gray;
     /*background: linear-gradient(#292C35,#E5E5E5);*/
     position: relative;
 
