@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment01-Case02</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #0057e7;
+        }
+
+        .outer-circle {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: white;
+
+            /*aspect-ratio: 1/1;  height width anupathaya*/
+
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .inner-circle {
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .red-circle {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 10px solid transparent;
+            border-top: 10px solid red;
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="outer-circle">
+    <div class="red-circle"></div>
+    <div class="inner-circle">RWAD</div>
+</div>
+</body>
+<section>
+    <div>
+    </div>
+</section>
+</body>
+</html>

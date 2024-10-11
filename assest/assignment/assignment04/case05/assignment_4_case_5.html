@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 04 Case 05</title>
+
+    <style>
+        main {
+            width: 50vw;
+            height: 50vh;
+            border: 10px solid red;
+        }
+        section {
+            display: flex;
+            width: fit-content;
+
+            animation: animation-slide 3s infinite alternate;
+        }
+
+        section>div {
+            width: 50vw;
+            height: 50vh;
+        }
+
+        section>div:first-child {
+            background: url("images/slide1.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        section>div:nth-child(2) {
+            background: url("images/slide2.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        section>div:nth-child(3) {
+            background: url("images/slide3.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+        section>div:nth-child(4) {
+            background: url("images/slide4.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes animation-slide {
+            0%, 20% {
+                transform: translateX(0%);
+            }
+            /*5%*/
+            25%, 45% {
+                transform: translateX(-25%);
+            }
+            /*5%*/
+            50%, 70% {
+                transform: translateX(-50%);
+            }
+            /*5%*/
+            75%, 100% {
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+
+</body>
+</html>
