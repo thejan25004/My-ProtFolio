@@ -1644,26 +1644,51 @@ form label {
     margin-right: 10px;
 }
 
-/* Links for demo and code */
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
 form a {
+    padding: 10px 20px;
+    /*margin-left: 0;*/
+    width: auto;
+
     text-decoration: none;
     background-color: #d3d3d3;
     color: black;
-    padding: 10px 45px;
+    /*padding: 10px 45px;*/
 
     border-radius: 5px;
-    margin-left: 145px;
+    margin-left: 100px;
+    margin-right: -75px;
 }
+
+
+
+/* Links for demo and code */
+/*form a {*/
+/*    text-decoration: none;*/
+/*    background-color: #d3d3d3;*/
+/*    color: black;*/
+/*    !*padding: 10px 45px;*!*/
+
+/*    border-radius: 5px;*/
+/*    margin-left: 100px;*/
+/*}*/
 
 form a:hover {
     background-color: #ff6347;
     color: white;
 }
 
-form div {
-    margin-bottom: 10px;
-
-}
+/*form div {*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
 /* Responsive Layout for Smaller Screens */
 @media (max-width: 768px) {
