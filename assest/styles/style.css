@@ -1542,20 +1542,42 @@ body {
 #assignmentPage {
     text-align: center;
     padding-top: 40px;
+    background: linear-gradient(#E5E5E5,black);
 
 
     font-family: 'Arial', sans-serif;
-    background-color: #000000;
+
     color: white;
     margin: 0;
     /*padding: 0;*/
 }
 
-h1, h4 {
+#assignmentPage > h1 {
+    color: #B3B3B3;
+    /*color: #868686;*/
+    /*font-family: "Hammersmith One", sans-serif;*/
     font-size: 3vw;
-    color: #ffffff;
-    margin: 0;
+    /*font-weight: 400;*/
+    /*position: absolute;*/
+    /*top: 70px;*/
+
 }
+
+#assignmentPage > h4 {
+    color: black;
+    /*font-family: "Hammersmith One", sans-serif;*/
+    font-size: 1.5vw;
+    /*font-weight: bold;*/
+    /*position: absolute;*/
+    margin-top: -54px;
+
+}
+
+/*h1, h4 {*/
+/*    font-size: 3vw;*/
+/*    color: #ffffff;*/
+/*    margin: 0;*/
+/*}*/
 
 /* Section for the Assignment Cards */
 #assignmentCardSection {
@@ -1627,9 +1649,10 @@ form a {
     text-decoration: none;
     background-color: #d3d3d3;
     color: black;
-    padding: 5px 10px;
+    padding: 10px 45px;
+
     border-radius: 5px;
-    margin-left: 5px;
+    margin-left: 145px;
 }
 
 form a:hover {
@@ -1639,6 +1662,7 @@ form a:hover {
 
 form div {
     margin-bottom: 10px;
+
 }
 
 /* Responsive Layout for Smaller Screens */
