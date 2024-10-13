@@ -261,6 +261,7 @@ main>div:nth-child(1)>h4{
     top: 50px;
     display: flex;
     margin-bottom: 0;
+
 }
 
 .icon-github {
@@ -1984,8 +1985,9 @@ main#blogPostPage > h4 {
 }
 
 .form-group {
+
     margin-bottom: 40px;
-    margin-left: 60px;
+    margin-left: 50px;
     justify-content: space-around;
 
 
@@ -1993,6 +1995,8 @@ main#blogPostPage > h4 {
 
 .form-group label {
     text-align: left;
+    width: 220px;
+    /*background-color: #B3B3B3;*/
     display: block;
     margin-bottom: 15px;
     font-size: 2em;
@@ -2002,7 +2006,8 @@ main#blogPostPage > h4 {
 }
 
 .form-group input, .form-group textarea {
-    width: 25vw;
+    width: 18vw;
+    margin-left: -330px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid white;
@@ -2012,7 +2017,7 @@ main#blogPostPage > h4 {
 }
 
 .form-group textarea {
-    height: 100px;
+    height: 80px;
 }
 
 .form-group input[type="submit"] {
