@@ -391,11 +391,18 @@
                 left: 70px;
             }
 
+            .form-group input, .form-group textarea {
+                margin-left: -400px;
+            }
+
             #contentOfFooter{
                 left: 650px;
             }
 
 
+            .form-group input[type="submit"] {
+                margin-left: 10px;
+            }
 
             .contact-form h3 {
                 font-size: 2.5em;
@@ -860,84 +867,93 @@
             /*------------Contact Page---------------- */
 
 
-            #contactPage > h4 {
-                top: 58px;
-            }
+            /*#contactPage > h4 {*/
+            /*    top: 58px;*/
+            /*}*/
 
-            .contact-container {
-                width: 100%;
-            }
+            /*.contact-container {*/
+            /*    width: 100%;*/
+            /*}*/
 
-            .contact-info {
+            /*.contact-info {*/
 
-                font-size: 1.25vw;
-                top: 100px;
-                width: 25%;
-                height: 50%;
-                left: -10px;
-            }
-
-
-
-            .social-icons a img {
-                width: 12%;
-                height: 12%;
-                margin-left: -10px;
-                /*margin-top: 20px;*/
-            }
+            /*    font-size: 1.25vw;*/
+            /*    top: 100px;*/
+            /*    width: 25%;*/
+            /*    height: 50%;*/
+            /*    left: -10px;*/
+            /*}*/
 
 
-            #formOfCustomer{
 
-                top: 150px;
-                left: 90px;
+            /*.social-icons a img {*/
+            /*    width: 12%;*/
+            /*    height: 12%;*/
+            /*    margin-left: -10px;*/
+            /*    !*margin-top: 20px;*!*/
+            /*}*/
 
-            }
 
-            .form-group {
-                margin-bottom: 10px;
-                margin-left: 10px;
+            /*#formOfCustomer{*/
+
+            /*    top: 150px;*/
+            /*    left: 90px;*/
+
+            /*}*/
+
+            /*.form-group {*/
+            /*    margin-bottom: 10px;*/
+            /*    margin-left: 10px;*/
+            /*}*/
+
+            .form-group textarea {
+                /*height: 80px;*/
             }
 
             .form-group label {
-                font-size: 1.25em;
-                width: 50%;
+                font-size: 0.75em;
+                /*width: 50%;*/
+                /*margin-left: -100px;*/
+                margin-bottom: 50px;
             }
 
             .form-group input, .form-group textarea {
-                width: 50%;
-                height: 30%;
+                /*width: 110%;*/
+                /*height: 30%;*/
+                margin-left: -600px;
+                margin-top: 40px;
             }
 
 
-            .contact-form {
-                width: 80vw;
-                height: 60vh;
-                left: 80px;
-            }
+            /*.contact-form {*/
+            /*    width: 80vw;*/
+            /*    height: 60vh;*/
+            /*    left: 80px;*/
+            /*}*/
 
             #contentOfFooter{
-                left: 650px;
+                left: 400px;
             }
 
-            .form-group textarea{
-                height: 70px;
-            }
+            /*.form-group textarea{*/
+            /*    height: 70px;*/
+            /*}*/
 
 
-            .contact-form h3 {
-                font-size: 2.5em;
-                top: 60px;
-            }
+            /*.contact-form h3 {*/
+            /*    font-size: 2.5em;*/
+            /*    top: 60px;*/
+            /*}*/
 
             .form-group input[type="submit"] {
                 width: 25%;
+                margin-right: 250px;
             }
 
         }
 
         /*tablet*/
-        @media (min-width: 425px) and (max-width: 768px) {
+        @media all and (min-width: 425px) and (max-width: 768px) {
 
             /*-----------Hero Section-------------*/
 
@@ -1524,7 +1540,7 @@
         }
 
         /* Styles for small mobile devices */
-        @media (max-width: 320px) {
+        @media  all and (max-width: 320px) {
 
 
             /*------------Hero Section----------*/
@@ -2184,22 +2200,26 @@
 
             .form-group input, .form-group textarea {
 
-                width: 50%;
+                width: 150px;
+                height: 5px;
                 padding: 10px;
+                margin-right: -150px;
+                margin-bottom: 40px;
                 box-sizing: border-box;
             }
 
 
             .form-group input[type="submit"] {
-                width: 100%;
-                padding: 10px;
-                margin-top: 20px;
+                width: 20vw;
+                padding: 15px;
+                text-align: center;
+                margin-top: 50px;
                 background-color: #ff4500;
                 color: white;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
-                text-align: center;
+
                 display: block;
             }
 
@@ -2289,6 +2309,8 @@
 
             .form-group label {
                 margin-top: 5px;
+                margin-bottom: 40px;
+                margin-left: -180px;
                 font-size: 10px;
                 width: 80%;
             }
@@ -2339,7 +2361,7 @@
 
 
         /* Styles for medium mobile devices */
-        @media (min-width: 321px) and (max-width: 375px) {
+        @media  all and (min-width: 321px) and (max-width: 375px) {
 
 
 
@@ -3006,12 +3028,126 @@
 
 
 
+            /*#formOfCustomer {*/
+            /*    grid-template-columns: 1fr;*/
+            /*    top: 80px;*/
+            /*    margin-left: 25px;*/
+            /*    left: unset;*/
+            /*    !*margin: 0 auto;*!*/
+            /*    width: 85vw;*/
+            /*}*/
+
+
+            /*.form-group {*/
+            /*    margin: 0 auto;*/
+            /*    padding: 0 10px;*/
+            /*    text-align: left;*/
+            /*}*/
+
+            /*.form-group input, .form-group textarea {*/
+
+            /*    width: 75%;*/
+            /*    padding: 10px;*/
+            /*    !*margin-left: 50px;*!*/
+            /*    margin-top: 8px;*/
+            /*    box-sizing: border-box;*/
+            /*}*/
+
+
+            /*.form-group input[type="submit"] {*/
+            /*    width: 210%;*/
+            /*    padding: 10px;*/
+            /*    margin-top: 20px;*/
+            /*    background-color: #ff4500;*/
+            /*    color: white;*/
+            /*    border: none;*/
+            /*    border-radius: 5px;*/
+            /*    cursor: pointer;*/
+            /*    text-align: center;*/
+            /*    display: block;*/
+            /*}*/
+
+
+            /*.contact-form {*/
+            /*    padding: 20px;*/
+            /*    width: 110vw;*/
+            /*    margin: 0 auto;*/
+            /*    top: -20px;*/
+            /*    left: 10px;*/
+            /*    position: relative;*/
+            /*}*/
+
+            /*#contactPage>h1 {*/
+            /*    top: 10px;*/
+            /*    font-size: 8vw;*/
+
+            /*}*/
+
+            /*#contactPage>h4 {*/
+            /*    top: 18px;*/
+            /*    font-size: 3vw;*/
+
+            /*}*/
+
+            /*.contact-container {*/
+            /*    width: 120%;*/
+            /*}*/
+
+            /*.contact-info {*/
+            /*    font-size: 1.25vw;*/
+            /*    top: -55px;*/
+            /*    width: 40%;*/
+            /*    height: 26%;*/
+            /*    left: 25px;*/
+            /*}*/
+
+            /*.contact-info ul li {*/
+            /*    margin-bottom: 5px;*/
+            /*}*/
+
+            /*.contact-info h3 {*/
+            /*    font-size: 3em;*/
+
+            /*    margin-top: -18px;*/
+            /*}*/
+
+            /*.contact-info ul li img {*/
+            /*    height: 18%;*/
+            /*    width: 18%;*/
+            /*}*/
+
+            /*.social-icons a img {*/
+            /*    width: 10%;*/
+            /*    height: 10%;*/
+            /*    top: 140px;*/
+
+
+            /*}*/
+
+            /*.form-group label {*/
+            /*    margin-top: 5px;*/
+            /*    margin-bottom: 30px;*/
+            /*    font-size: 8.5px;*/
+            /*    margin-right: 550px;*/
+            /*    width: 40%;*/
+            /*}*/
+
+            /*.contact-form h3 {*/
+            /*    font-size: 1.5em;*/
+            /*    top: 30px;*/
+            /*    left: 180px;*/
+            /*}*/
+
+
+
+
+
+
             #formOfCustomer {
                 grid-template-columns: 1fr;
-                top: 80px;
-                margin-left: 25px;
+                top: 100px;
                 left: unset;
-                /*margin: 0 auto;*/
+                margin: 0 auto;
                 width: 80vw;
             }
 
@@ -3024,87 +3160,140 @@
 
             .form-group input, .form-group textarea {
 
-                width: 75%;
+                width: 150px;
+                height: 5px;
                 padding: 10px;
+                margin-right: -150px;
+                margin-bottom: 40px;
                 box-sizing: border-box;
             }
 
 
             .form-group input[type="submit"] {
-                width: 210%;
-                padding: 10px;
-                margin-top: 20px;
+                width: 20vw;
+                padding: 15px;
+                text-align: center;
+                margin-top: 50px;
                 background-color: #ff4500;
                 color: white;
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
-                text-align: center;
+
                 display: block;
             }
 
 
             .contact-form {
                 padding: 20px;
-                width: 110vw;
+                width: 100vw;
                 margin: 0 auto;
-                top: -20px;
+                top: 10px;
                 left: 10px;
                 position: relative;
             }
 
             #contactPage>h1 {
-                top: 10px;
+                top: 45px;
                 font-size: 8vw;
 
             }
 
             #contactPage>h4 {
-                top: 18px;
+                top: 53px;
                 font-size: 3vw;
 
             }
 
             .contact-container {
-                width: 120%;
+                width: 125%;
             }
 
             .contact-info {
+
                 font-size: 1.25vw;
-                top: -55px;
+                top: -25px;
                 width: 40%;
-                height: 26%;
-                left: 25px;
+                height: 25%;
+                left: 34px;
             }
 
             .contact-info ul li {
+                margin-left: -20px;
                 margin-bottom: 5px;
+                font-size: 2.35vw;
+                width: 125%;
+
             }
+
+            .contact-info ul{
+
+                margin-top: -15px;
+
+                width: 125%;
+
+            }
+
+
 
             .contact-info h3 {
                 font-size: 3em;
-
-                margin-top: -18px;
+                margin-top: -25px;
             }
 
             .contact-info ul li img {
-                height: 18%;
-                width: 18%;
+                height: 10%;
+                width: 15%;
             }
 
             .social-icons a img {
-                width: 10%;
-                height: 10%;
-                top: 140px;
+                width: 12%;
+                height: 12%;
+                top: 138px;
 
 
             }
+
+
+            /*#formOfCustomer{*/
+            /*    grid-template-columns: repeat(1,1fr);*/
+            /*    top: 230px;*/
+            /*    left: 50px;*/
+
+            /*}*/
+
+            /*.form-group {*/
+            /*    margin-bottom: 10px;*/
+            /*    margin-left: -135px;*/
+            /*}*/
 
             .form-group label {
                 margin-top: 5px;
-                font-size: 8.5px;
-                width: 40%;
+                margin-bottom: 40px;
+                margin-left: -180px;
+                font-size: 10px;
+                width: 80%;
             }
+
+            /*.form-group input, .form-group textarea {*/
+            /*    width: 40%;*/
+            /*    height: 10%;*/
+            /*}*/
+
+
+            /*.contact-form {*/
+            /*    width: 95vw;*/
+            /*    height: 75vh;*/
+            /*    left: 10px;*/
+            /*    top: -25px;*/
+            /*}*/
+
+
+
+            .form-group textarea{
+                /*height: 12px;*/
+            }
+
 
             .contact-form h3 {
                 font-size: 1.5em;
@@ -3125,7 +3314,7 @@
 
 
         /* Styles for large mobile devices */
-        @media (min-width: 376px) and (max-width: 425px) {
+        @media  all and (min-width: 376px) and (max-width: 425px) {
 
 
             main:nth-child(1) {
@@ -3773,141 +3962,308 @@
             /*------------Contact Page---------------- */
 
 
-
             #formOfCustomer {
-                /*display: flex;*/
-
-                flex-direction: column;
-                top: 145px;
+                grid-template-columns: 1fr;
+                top: 100px;
                 left: unset;
                 margin: 0 auto;
-                width: 50vw;
-                margin-left: 25px;
+                width: 65%;
 
-                grid-template-columns: 1fr;
+
             }
 
 
             .form-group {
                 margin: 0 auto;
-                padding: 10px 0;
+                padding: 0 10px;
                 text-align: left;
             }
-
-
-            .form-group label {
-                font-size: 2vw;
-                width: 100%;
-                margin-left: 0;
-                text-align: left;
-                display: block;
-                margin-bottom: 5px;
-            }
-
-
 
             .form-group input, .form-group textarea {
-                width: 65%;
+
+                width: 150px;
+                height: 5px;
                 padding: 10px;
+                margin-right: -150px;
+                margin-bottom: 40px;
                 box-sizing: border-box;
-                margin-bottom: 2px;
-                font-size: 2vw;
             }
 
 
-            /* Submit button */
             .form-group input[type="submit"] {
-                width: 30%;
-                padding: 2px;
-                margin-left: 180px;
-                margin-top: -60px;
-                border: none;
-                cursor: pointer;
+                width: 20vw;
+                padding: 15px;
                 text-align: center;
+                /*margin-top: 50px;*/
+                margin-left: 100px;
+                background-color: #ff4500;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+
                 display: block;
             }
 
+
             .contact-form {
-                    height: 65vh;
-                    top: 25px;
-                    left: -80px;
-                    padding: 20px;
-                    width: 90vw;
-                     margin: 0 auto;
-                    position: relative;
+                padding: 20px;
+                width: 80vw;
+                margin: 0 auto;
+                top: 10px;
+                left: 25px;
+                position: relative;
             }
 
-            /* Headings (h1 and h4) */
-            #contactPage > h1 {
-                top: 18px;
+            #contactPage>h1 {
+                top: 45px;
                 font-size: 8vw;
-                margin-top: 15px;
-                text-align: center;
+
             }
 
-            #contactPage > h4 {
-                    top: 35px;
-                    font-size: 3vw;
-                margin-top: 10px;
-                text-align: center;
+            #contactPage>h4 {
+                top: 53px;
+                font-size: 3vw;
+
             }
 
+            .contact-container {
+                width: 125%;
+            }
 
             .contact-info {
+
                 font-size: 1.25vw;
-                width: 35%;
-                left: 75px;
-                top: -55px;
-                position: relative;
-                height: 25vh;
+                top: -25px;
+                width: 40%;
+                height: 25%;
+                left: 34px;
             }
-
-
 
             .contact-info ul li {
-                    margin-left: -20px;
-                    margin-bottom: 5px;
-                    font-size: 2.25vw;
-                    width: 125%;
+                margin-left: -20px;
+                margin-bottom: 5px;
+                font-size: 2.35vw;
+                width: 125%;
 
             }
+
+            .contact-info ul{
+
+                margin-top: -15px;
+
+                width: 125%;
+
+            }
+
 
 
             .contact-info h3 {
                 font-size: 3em;
-                margin-top: -18px;
+                margin-top: -25px;
             }
 
             .contact-info ul li img {
-                height: 18%;
-                width: 18%;
-            }
-
-            .contact-container {
-                width: auto;
-            }
-
-            .contact-form h3 {
-                font-size: 1.75em;
-                top: 30px;
-                left: 190px;
+                height: 10%;
+                width: 15%;
             }
 
             .social-icons a img {
                 width: 12%;
                 height: 12%;
-                top: 165px;
+                top: 138px;
 
 
             }
 
-            /* Footer adjustments */
-            #contentOfFooter {
+
+            /*#formOfCustomer{*/
+            /*    grid-template-columns: repeat(1,1fr);*/
+            /*    top: 230px;*/
+            /*    left: 50px;*/
+
+            /*}*/
+
+            /*.form-group {*/
+            /*    margin-bottom: 10px;*/
+            /*    margin-left: -135px;*/
+            /*}*/
+
+            .form-group label {
+                margin-top: 5px;
+                margin-bottom: 40px;
+                margin-left: -180px;
+                font-size: 10px;
+                width: 80%;
+            }
+
+            /*.form-group input, .form-group textarea {*/
+            /*    width: 40%;*/
+            /*    height: 10%;*/
+            /*}*/
+
+
+            /*.contact-form {*/
+            /*    width: 95vw;*/
+            /*    height: 75vh;*/
+            /*    left: 10px;*/
+            /*    top: -25px;*/
+            /*}*/
+
+
+
+            .form-group textarea{
+                /*height: 12px;*/
+            }
+
+
+            .contact-form h3 {
+                font-size: 1.5em;
+                top: 30px;
+                left: 180px;
+            }
+
+
+
+            #contentOfFooter{
                 left: 60px;
                 font-size: 3vw;
-                text-align: center;
-
             }
+
+            /*#formOfCustomer {*/
+            /*    !*display: flex;*!*/
+
+            /*    flex-direction: column;*/
+            /*    top: 145px;*/
+            /*    left: unset;*/
+            /*    margin: 0 auto;*/
+            /*    width: 50vw;*/
+            /*    margin-left: 25px;*/
+
+            /*    grid-template-columns: 1fr;*/
+            /*}*/
+
+
+            /*.form-group {*/
+            /*    margin: 0 auto;*/
+            /*    padding: 10px 0;*/
+            /*    text-align: left;*/
+            /*}*/
+
+
+            /*.form-group label {*/
+            /*    font-size: 2vw;*/
+            /*    width: 100%;*/
+            /*    margin-left: 0;*/
+            /*    text-align: left;*/
+            /*    display: block;*/
+            /*    margin-bottom: 5px;*/
+            /*}*/
+
+
+
+            /*.form-group input, .form-group textarea {*/
+            /*    width: 65%;*/
+            /*    padding: 10px;*/
+            /*    box-sizing: border-box;*/
+            /*    margin-bottom: 2px;*/
+            /*    font-size: 2vw;*/
+            /*}*/
+
+
+            /*!* Submit button *!*/
+            /*.form-group input[type="submit"] {*/
+            /*    width: 30%;*/
+            /*    padding: 2px;*/
+            /*    margin-left: 180px;*/
+            /*    margin-top: -60px;*/
+            /*    border: none;*/
+            /*    cursor: pointer;*/
+            /*    text-align: center;*/
+            /*    display: block;*/
+            /*}*/
+
+            /*.contact-form {*/
+            /*        height: 65vh;*/
+            /*        top: 25px;*/
+            /*        left: -80px;*/
+            /*        padding: 20px;*/
+            /*        width: 90vw;*/
+            /*         margin: 0 auto;*/
+            /*        position: relative;*/
+            /*}*/
+
+            /*!* Headings (h1 and h4) *!*/
+            /*#contactPage > h1 {*/
+            /*    top: 18px;*/
+            /*    font-size: 8vw;*/
+            /*    margin-top: 15px;*/
+            /*    text-align: center;*/
+            /*}*/
+
+            /*#contactPage > h4 {*/
+            /*        top: 35px;*/
+            /*        font-size: 3vw;*/
+            /*    margin-top: 10px;*/
+            /*    text-align: center;*/
+            /*}*/
+
+
+            /*.contact-info {*/
+            /*    font-size: 1.25vw;*/
+            /*    width: 35%;*/
+            /*    left: 75px;*/
+            /*    top: -55px;*/
+            /*    position: relative;*/
+            /*    height: 25vh;*/
+            /*}*/
+
+
+
+            /*.contact-info ul li {*/
+            /*        margin-left: -20px;*/
+            /*        margin-bottom: 5px;*/
+            /*        font-size: 2.25vw;*/
+            /*        width: 125%;*/
+
+            /*}*/
+
+
+            /*.contact-info h3 {*/
+            /*    font-size: 3em;*/
+            /*    margin-top: -18px;*/
+            /*}*/
+
+            /*.contact-info ul li img {*/
+            /*    height: 18%;*/
+            /*    width: 18%;*/
+            /*}*/
+
+            /*.contact-container {*/
+            /*    width: auto;*/
+            /*}*/
+
+            /*.contact-form h3 {*/
+            /*    font-size: 1.75em;*/
+            /*    top: 30px;*/
+            /*    left: 190px;*/
+            /*}*/
+
+            /*.social-icons a img {*/
+            /*    width: 12%;*/
+            /*    height: 12%;*/
+            /*    top: 165px;*/
+
+
+            /*}*/
+
+            /*!* Footer adjustments *!*/
+            /*#contentOfFooter {*/
+            /*    left: 60px;*/
+            /*    font-size: 3vw;*/
+            /*    text-align: center;*/
+
+            /*}*/
 
 
 
@@ -4065,6 +4421,15 @@
 
 
         }
+
+        /*@media all and (min-width: 1440px) and (max-width: 2560px) {*/
+
+        /*    !*Blog Post Page*!*/
+        /*    #center-blog-post{*/
+        /*        margin-left: 140px;*/
+        /*    }*/
+
+        /*}*/
 
 
 
@@ -4235,11 +4600,10 @@
             <p id="fpharagraph">I am Chamod Thejan , </p> <p id="spharagraph">Web Designer & Developer</p>
             <p id="detailspharagraph" data-aos="zoom-in-down" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
                 I excel at combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
-                I excel at combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
-                I excel at combining aesthetic appeal with seamless functionality, ensuring that
+                I excel at combining aesthetic appeal with seamless functionality,
 
             <p id="detailspharagraph2"  class=" animate__animated animate__fadeInRightBig" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
-                I excel at combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
+                I excel at combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience.
                 I excel at combining aesthetic appeal with seamless functionality,
             </p>
 
@@ -4397,7 +4761,7 @@
                        <img src="assest/images/skillsImage/mongodb3.png" alt="Mongodn-Logo" title="Mongodb-Logo" style="width: 65%; height: auto;">
                    </picture>
 
-<!--                   <label id="mongoDbLabel">MongoDB</label>-->
+                   <label id="mongoDbLabel">MongoDB</label>
 
                </div>
 

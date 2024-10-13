@@ -428,7 +428,7 @@ main:nth-child(2)>section:nth-child(2)>div:nth-child(1)>h4 {
      font-style: normal;
 
      font-size: 1em;
-     width: 60vw;
+     width: 40vw;
      position: absolute;
      top: -250px;
      bottom: 0;
@@ -445,7 +445,7 @@ main:nth-child(2)>section:nth-child(2)>div:nth-child(1)>h4 {
     font-style: normal;
 
     font-size: 1em;
-    width: 60vw;
+    width: 40vw;
     position: absolute;
     top: -80px;
     bottom: 0;
@@ -462,7 +462,7 @@ main:nth-child(2)>section:nth-child(2)>div:nth-child(1)>h4 {
     font-style: normal;
 
     font-size: 1em;
-    width: 60vw;
+    width: 40vw;
     position: absolute;
     top: 30px;
     bottom: 0;
@@ -2022,6 +2022,7 @@ main#blogPostPage > h4 {
 
 .form-group input[type="submit"] {
     width: 5vw;
+    text-align: center;
     padding: 10px 20px;
     background-color: #ff4500;
     color: white;
