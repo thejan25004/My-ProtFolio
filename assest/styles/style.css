@@ -264,23 +264,40 @@ main>div:nth-child(1)>h4{
 
 }
 
+#icons{
+    margin-top: 950px;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+
+}
+
+#icons img{
+  width: 40px;
+    height: 40px;
+
+}
 .icon-github {
     margin: 10px;
-    position: absolute;
+    /*position: absolute;*/
     top: 950px;
+    bottom: 0;
     left: 6px;
+
 }
 
 .icon-x {
     margin: 10px;
-    position: absolute;
+    /*position: absolute;*/
     top: 950px;
     left: 50px;
 }
 
 .icon-email {
     margin: 10px;
-    position: absolute;
+    /*position: absolute;*/
     top: 950px;
     left: 100px;
 }
