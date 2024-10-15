@@ -1438,6 +1438,11 @@ main:nth-child(5) {
 
 }
 
+#maintaince-img{
+    width: 300px;
+    height: 200px;
+}
+
 .maintenance>label{
     position: absolute;
     display: flex;
