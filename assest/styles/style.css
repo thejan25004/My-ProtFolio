@@ -1626,6 +1626,180 @@ main#GalleryPage section picture img {
 
 
 /*-------------------------------------------ASSIGNMENT PAGE---------------------------------------- */
+/*body {*/
+
+/*}*/
+
+/*#assignmentPage {*/
+/*    text-align: center;*/
+/*    padding-top: 40px;*/
+/*    background: linear-gradient(#E5E5E5,black);*/
+
+
+/*    font-family: 'Arial', sans-serif;*/
+
+/*    color: white;*/
+/*    margin: 0;*/
+/*    !*padding: 0;*!*/
+/*}*/
+
+/*#assignmentPage > h1 {*/
+/*    color: #B3B3B3;*/
+/*    !*color: #868686;*!*/
+/*    !*font-family: "Hammersmith One", sans-serif;*!*/
+/*    font-size: 3vw;*/
+/*    !*font-weight: 400;*!*/
+/*    !*position: absolute;*!*/
+/*    !*top: 70px;*!*/
+
+/*}*/
+
+/*#assignmentPage > h4 {*/
+/*    color: black;*/
+/*    !*font-family: "Hammersmith One", sans-serif;*!*/
+/*    font-size: 1.5vw;*/
+/*    !*font-weight: bold;*!*/
+/*    !*position: absolute;*!*/
+/*    margin-top: -54px;*/
+
+/*}*/
+
+/*!*h1, h4 {*!*/
+/*!*    font-size: 3vw;*!*/
+/*!*    color: #ffffff;*!*/
+/*!*    margin: 0;*!*/
+/*!*}*!*/
+
+/*!* Section for the Assignment Cards *!*/
+/*#assignmentCardSection {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    gap: 30px;*/
+/*    padding: 50px 0;*/
+/*}*/
+
+/*!* Styling for each Assignment Card *!*/
+/*#assignmentCardSection div {*/
+/*    background-color: black;*/
+/*    width: 40%;*/
+/*    max-width: 400px;*/
+/*    padding: 20px;*/
+/*    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);*/
+/*    border-radius: 10px;*/
+/*    text-align: center;*/
+
+/*}*/
+
+/*!* Styling for headings in each card *!*/
+/*#assignmentCardSection h3 {*/
+/*    color: white;*/
+/*    margin-top: 5px;*/
+/*    font-size: 1.8em;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Image styling *!*/
+/*#assignmentCardSection img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    border-radius: 10px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*!* Styling for buttons (Demo, Code) *!*/
+/*#assignmentCardSection input[type="button"] {*/
+/*    width: 100%;*/
+/*    padding: 10px 0;*/
+/*    font-size: 1.2em;*/
+/*    background-color: #d3d3d3;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    margin: 10px 0;*/
+/*    display: block;*/
+/*}*/
+
+/*#assignmentCardSection input[type="button"]:hover {*/
+/*    background-color: #ff6347;*/
+/*    color: white;*/
+/*}*/
+
+/*!* Form inside Assignment Cards *!*/
+/*.assignmentC3 , .assignmentC4 form {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*!* Label for cases *!*/
+/*.assignmentC3  form div label{*/
+/*    font-size: 1.2em;*/
+
+/*    background-color:rebeccapurple;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.assignmentC4 form div label {*/
+
+/*    background-color:yellow;*/
+/*    font-size: 1.2em;*/
+/*}*/
+
+/*.form div {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    margin-bottom: 10px;*/
+
+/*}*/
+
+/*.form a {*/
+/*    padding: 10px 20px;*/
+/*    !*margin-left: 0;*!*/
+/*    width: auto;*/
+
+/*    text-decoration: none;*/
+/*    background-color: #d3d3d3;*/
+/*    color: black;*/
+/*    !*padding: 10px 45px;*!*/
+
+/*    border-radius: 5px;*/
+/*    margin-left: 80px;*/
+/*    margin-right: -75px;*/
+/*}*/
+
+
+
+/*!* Links for demo and code *!*/
+/*!*form a {*!*/
+/*!*    text-decoration: none;*!*/
+/*!*    background-color: #d3d3d3;*!*/
+/*!*    color: black;*!*/
+/*!*    !*padding: 10px 45px;*!*!*/
+
+/*!*    border-radius: 5px;*!*/
+/*!*    margin-left: 100px;*!*/
+/*!*}*!*/
+
+/*.form a:hover {*/
+/*    background-color: #ff6347;*/
+/*    color: white;*/
+/*}*/
+
+/*!*form div {*!*/
+/*!*    margin-bottom: 10px;*!*/
+/*!*}*!*/
+
+/*!* Responsive Layout for Smaller Screens *!*/
+/*@media (max-width: 768px) {*/
+/*    #assignmentCardSection {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    #assignmentCardSection div {*/
+/*        width: 90%;*/
+/*    }*/
+/*}*/
+
 
 #assignmentPage {
     text-align: center;
@@ -1832,73 +2006,43 @@ main#GalleryPage section picture img {
         font-size: 0.5em;
     }
 }
-    @media (max-width: 425px) {
-        #assignmentCardSection {
-            flex-direction: column;
-        }
+@media (max-width: 425px) {
+    #assignmentCardSection {
+        flex-direction: column;
+    }
 
-        #assignmentCardSection div {
-            width: 80%;
-        }
+    #assignmentCardSection div {
+        width: 80%;
+    }
 
-        .form a {
-            padding: 5px 10px;
-            /*margin-left: 0;*/
-            width: auto;
+    .form a {
+        padding: 5px 10px;
+        /*margin-left: 0;*/
+        width: auto;
 
-            /*text-decoration: none;*/
-
-
-            border-radius: 5px;
-            margin-left: 15px;
-            margin-right: -10px;
-        }
-
-        .assignmentC3  form div label{
-            font-size: 1em;
-        }
-
-        .assignmentC4 form div label {
-            font-size: 1em;
-        }
-
-   }
+        /*text-decoration: none;*/
 
 
+        border-radius: 5px;
+        margin-left: 15px;
+        margin-right: -10px;
+    }
 
+    .assignmentC3  form div label{
+        font-size: 1em;
+    }
+
+    .assignmentC4 form div label {
+        font-size: 1em;
+    }
+
+}
 
 
 
 
 
 /* !*----------------------------------------Blog Post Page-----------------------------------*!*/
-
-
-
-
-
-
-
-main#blogPostPage > h1 {
-    color: #868686;
-    font-family: "Hammersmith One", sans-serif;
-    font-size: 3vw;
-    font-weight: 400;
-    left: 900px;
-    /*position: absolute;*/
-    /*top: 70px;*/
-
-}
-
-main#blogPostPage > h4 {
-    color: black;
-    font-family: "Hammersmith One", sans-serif;
-    font-size: 1vw;
-    font-weight: bold;
-    /*position: absolute;*/
-   margin-top:-50px;
-
-}
 
 
 #blogPostPage {
@@ -1913,7 +2057,7 @@ main#blogPostPage > h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; /* Updated gap to ensure proper spacing */
     padding: 50px 0;
     width: 100%;
     margin: 100px 0 0 0;
@@ -1929,15 +2073,10 @@ main#blogPostPage > h4 {
     border: 2px solid white;
     transition: all ease-in-out 0.5s;
     overflow: hidden;
-
-
-    filter: grayscale(100%) opacity(35%);
 }
 
 .blog-posts-container div:hover {
     width: 35%;
-
-    filter: grayscale(0%) opacity(100%);
 }
 
 .blog-posts-container img {
@@ -1961,32 +2100,33 @@ main#blogPostPage > h4 {
 }
 
 /* Media query for tablets and mobile devices */
-/*@media (max-width: 768px) {*/
-/*    .blog-posts-container {*/
-/*        flex-direction: column;*/
-/*        align-items: center;*/
-/*    }*/
+@media (max-width: 768px) {
+    .blog-posts-container {
+        flex-direction: column; /* Stack divs vertically */
+        align-items: center; /* Center the stacked items */
+    }
 
-/*    .blog-posts-container div {*/
-/*        width: 90%;*/
-/*        margin-bottom: 20px;*/
-/*        height: auto;*/
-/*    }*/
+    .blog-posts-container div {
+        width: 90%; /* Make each div take up more width */
+        margin-bottom: 20px; /* Add margin to separate them */
+        height: auto; /* Adjust height to fit content */
+    }
 
-/*    .blog-posts-container div:hover {*/
-/*        width: 90%;*/
-/*    }*/
+    .blog-posts-container div:hover {
+        width: 90%; /* Remove hover effect for responsiveness */
+    }
 
-/*    .blog-posts-container img {*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
+    .blog-posts-container img {
+        width: 100%; /* Make images fill the container */
+    }
+}
 
-/*@media (max-width: 480px) {*/
-/*    .blog-posts-container div {*/
-/*        width: 90%;*/
-/*    }*/
-/*}*/
+@media (max-width: 480px) {
+    .blog-posts-container div {
+        width: 90%; /* Make divs full width on smaller screens */
+    }
+}
+
 
     /*---------------------------------------------CONTACT PAGE--------------------------------------*/
 
