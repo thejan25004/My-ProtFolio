@@ -7,10 +7,6 @@
 
 /*----------------------------------------HERO SECTION-----------------------------------------*/
 
-
-
-
-
 html, body {
     margin: 0;
     padding: 0;
@@ -23,6 +19,11 @@ main:nth-child(1) {
     padding: 0;
     height:auto;
     background: linear-gradient(black,#E5E5E5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 /*header*/
@@ -36,10 +37,6 @@ main>header {
     z-index: 1;
 
 }
-
-
-
-
 
 main>header>img{
     width: 5vw;
@@ -87,19 +84,13 @@ main>header>div{
 }
 
 main>header>div>img{
-
     position: absolute;
-
     margin: 22px;
     right: -10px;
-    /*left: 300px;*/
-    /*bottom: 200px;*/
     top: -16px;
-
     width: 2em;
     height: 2em;
 
-    /*padding: 7px;*/
 
 
 }
@@ -118,7 +109,6 @@ header>nav>ul{
 
     font-family: "Hammersmith One", sans-serif;
     font-style: normal;
-
 /*background-color: #B3B3B3;*/
     color: aliceblue;
     right: 40px;
@@ -148,10 +138,6 @@ main:nth-child(1)>main {
     /*height: 94vh;*/
     overflow: hidden; /* Ensure no image overflow */
 }
-
-
-
-
 
  main>div:nth-child(1)>h1:nth-child(1){
      font-family: "Josefin Sans", sans-serif;
@@ -217,7 +203,6 @@ main>div:nth-child(1)>h4{
 
 }
 
-
  /*Buttons styling*/
 .btn {
     padding: 15px 25px;
@@ -254,13 +239,22 @@ main>div:nth-child(1)>h4{
 
 /* Profile Picture Styling */
 .profile-pic {
-    border-radius: 100px;
-    position: absolute;
+    /*border-radius: 100px;*/
+    /*position: absolute;*/
     right: 0;
     bottom: 0;
     top: 50px;
     display: flex;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
+
+    border-radius: 100px;
+    position: relative;
+    left: 1300px;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 70%;
+    height: auto;
 
 }
 
@@ -275,28 +269,31 @@ main>div:nth-child(1)>h4{
 }
 
 #icons img{
-  width: 40px;
+   width: 40px;
     height: 40px;
+margin-left: -990px;
 
 }
 .icon-github {
-    margin: 10px;
+    /*margin: 10px;*/
     /*position: absolute;*/
-    top: 950px;
+    /*top: 950px;*/
+
     bottom: 0;
-    left: 6px;
+    left: 250px;
 
 }
 
 .icon-x {
-    margin: 10px;
+    margin: 60px;
+    /*margin: 10px;*/
     /*position: absolute;*/
     top: 950px;
     left: 50px;
 }
 
 .icon-email {
-    margin: 10px;
+    margin: 120px;
     /*position: absolute;*/
     top: 950px;
     left: 100px;
@@ -304,6 +301,25 @@ main>div:nth-child(1)>h4{
 
 
 
+
+
+
+/* Handle responsiveness for different screen sizes */
+/*@media screen and (max-width: 600px) {*/
+/*    .profile-pic {*/
+/*        margin-right: 10px; !* Adjust margins for smaller screens *!*/
+/*        margin-bottom: 10px;*/
+/*        width: 100%; !* Make the image smaller on mobile *!*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 601px) and (max-width: 1024px) {*/
+/*    .profile-pic {*/
+/*        margin-right: 15px;*/
+/*        margin-bottom: 15px;*/
+/*        width: 250%;*/
+/*    }*/
+/*}*/
 
 /*-----------------------------------------ABOUT PAGE SECTION------------------------------------------*/
 
@@ -553,6 +569,203 @@ main:nth-child(2)>section:nth-child(2)>div:nth-child(3) {
     color: #B3B3B3;
 }
 
+
+
+
+/*========================================*/
+/* General Reset */
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*!* Body Styling *!*/
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    line-height: 1.6;*/
+/*    color: #333;*/
+/*    background-color: #f4f4f4;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+/*!* Header Styling *!*/
+/*header {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    background-color: black;*/
+/*}*/
+
+/*header img {*/
+/*    width: 8vw;*/
+/*    height: auto;*/
+/*}*/
+
+/*header nav ul {*/
+/*    display: flex;*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*header nav ul li {*/
+/*    margin: 0 15px;*/
+/*}*/
+
+/*header nav ul li a {*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*.menu-toggle {*/
+/*    display: none;*/
+/*    font-size: 1.5em;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*!* Hero Section Styling *!*/
+/*#HeroSection {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*    background: linear-gradient(black, #E5E5E5);*/
+/*}*/
+
+/*#HeroSection h1 {*/
+/*    color: white;*/
+/*    font-size: 4vw;*/
+/*    text-align: center;*/
+/*}*/
+
+/*#HeroSection p {*/
+/*    color: #e5e5e5;*/
+/*    font-size: 1.5em;*/
+/*    margin: 20px 0;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.btn {*/
+/*    background-color: #FF4500;*/
+/*    color: white;*/
+/*    padding: 10px 30px;*/
+/*    text-decoration: none;*/
+/*    border-radius: 5px;*/
+/*    font-size: 1em;*/
+/*}*/
+
+/*.btn:hover {*/
+/*    background-color: #e63b00;*/
+/*}*/
+
+/*!* Profile Picture Styling *!*/
+/*.profile-pic {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    border-radius: 50%;*/
+/*    margin: 20px 0;*/
+/*}*/
+
+/*!* Main Content *!*/
+/*main {*/
+/*    padding: 20px;*/
+/*}*/
+
+/*!* Footer Styling *!*/
+/*footer {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    position: relative;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+/*footer p {*/
+/*    margin: 5px;*/
+/*}*/
+
+/*!* Media Query for Desktops and Larger Screens *!*/
+/*@media only screen and (min-width: 1200px) {*/
+/*    !*#HeroSection {*!*/
+/*    !*    flex-direction: row;*!*/
+/*    !*    justify-content: space-between;*!*/
+/*    !*}*!*/
+
+/*    header img {*/
+/*        width: 10vw;*/
+/*    }*/
+
+/*    #HeroSection h1 {*/
+/*        font-size: 3vw;*/
+/*    }*/
+/*}*/
+
+/*!* Media Query for Tablets (Max width: 768px) *!*/
+/*@media only screen and (max-width: 768px) {*/
+/*    header {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    header nav ul {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    #HeroSection h1 {*/
+/*        font-size: 5vw;*/
+/*    }*/
+
+/*    .btn {*/
+/*        padding: 12px 25px;*/
+/*    }*/
+
+/*    header img {*/
+/*        width: 15vw;*/
+/*    }*/
+/*}*/
+
+/*!* Media Query for Mobile Phones (Max width: 480px) *!*/
+/*@media only screen and (max-width: 480px) {*/
+/*    header nav ul {*/
+/*        display: none;*/
+/*    }*/
+
+/*    !*.menu-toggle {*!*/
+/*    !*    display: block;*!*/
+/*    !*}*!*/
+
+/*    header img {*/
+/*        width: 20vw;*/
+/*    }*/
+
+/*    #HeroSection h1 {*/
+/*        font-size: 6vw;*/
+/*    }*/
+
+/*    .btn {*/
+/*        width: 100%;*/
+/*        padding: 15px;*/
+/*        font-size: 16px;*/
+/*    }*/
+/*}*/
+
+/*!* Responsive Typography *!*/
+/*h1 {*/
+/*    font-size: 3rem; !* Default for desktop *!*/
+/*}*/
+
+/*p {*/
+/*    font-size: 1.2rem;*/
+/*}*/
+
+/*====================================*/
 
 
 /*----------------------------------------------  SKILL PAGE ----------------------------------------*/
@@ -1252,165 +1465,6 @@ main:nth-child(5) {
     left: 320px;
     top: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*main:nth-child(5) {*/
-/*    background: linear-gradient(black,#E5E5E5);*/
-/*    align-items: center;*/
-/*    height: 100vh;*/
-/*    display: grid;*/
-/*    position: relative;*/
-
-/*    margin: 0 auto;*/
-/*    padding: 50px 20px;*/
-/*    max-width: 900vw;*/
-/*}*/
-
-/*main:nth-child(5)>h1 {*/
-/*    width: 40%;*/
-/*    color: black;*/
-/*    font-family: "Hammersmith One", sans-serif;*/
-/*    font-weight: 400;*/
-/*    font-style: normal;*/
-/*    font-size: 4vw;*/
-
-/*    position: absolute;*/
-/*    justify-content: center;*/
-/*    top: 80px;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*    right: -429px;*/
-/*    margin: auto;*/
-/*}*/
-
-/*main:nth-child(5)>h4 {*/
-/*    width: 40%;*/
-/*    color: #B3B3B3;*/
-
-/*    font-family: "Hammersmith One", sans-serif;*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-/*    font-size: 2vw;*/
-
-/*    position: absolute;*/
-/*    top: 100px;*/
-/*    bottom: 0;*/
-/*    left: 0;*/
-/*    right: -550px;*/
-/*    margin: auto;*/
-/*}*/
-
-/*#serviceSection {*/
-/*    display: grid;*/
-/*    grid-template-columns: 1fr 1fr;*/
-/*    gap: 50px 100px;*/
-/*    width: 80vw;*/
-/*    margin: 0 auto;*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-
-/*    position: absolute;*/
-/*    top:-350px;*/
-/*    bottom: 0;*/
-/*    left: 130px;*/
-/*    justify-content: space-around;*/
-/*    column-gap: 300px;*/
-/*    row-gap: 100px;*/
-/*}*/
-
-/*#lastServiceSexction{*/
-
-/*    width: 80vw;*/
-/*    margin: 0 auto;*/
-
-
-/*    position: absolute;*/
-/*    top:500px;*/
-/*    bottom: 0;*/
-/*    left: 120px;*/
-
-/*}*/
-
-/*#imageIconDesign{*/
-/*    width: 10vw;*/
-/*    height: 20vh;*/
-/*}*/
-
-/*#imageIconDevelopment{*/
-/*    width: 15vw;*/
-/*    height: 30vh;*/
-/*}*/
-/*#imageIconMaintain{*/
-/*    width: 30vw;*/
-/*    height: 40vh;*/
-/*}*/
-/*.Title{*/
-
-
-/*    font-family: "Hammersmith One", sans-serif;*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-
-/*    font-size: 2em;*/
-/*}*/
-
-/*#designTitle{*/
-/*    position: absolute;*/
-/*    top: 760px;*/
-/*}*/
-
-/*#developmentTitle{*/
-/*    position: absolute;*/
-/*    top: 760px;*/
-/*}*/
-
-
-/*.fpharagraph{*/
-/*    font-family: "Hammersmith One", sans-serif;*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-
-/*    font-size: 1em;*/
-
-/*    position: absolute;*/
-/*    top: 800px;*/
-/*}*/
-
-/*#lpharagraph{*/
-/*    font-family: "Hammersmith One", sans-serif;*/
-/*    font-weight: bold;*/
-/*    font-style: normal;*/
-
-/*    font-size: 1em;*/
-/*    top: 450px;*/
-/*    position: absolute;*/
-
-/*}*/
-
-
-/*#serviceSection div {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
-
-/*#lastServiceSexction div{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
-
 
 /*------------------------------------------- GALLERY PAGE ---------------------------------------------*/
 
