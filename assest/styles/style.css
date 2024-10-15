@@ -1933,45 +1933,28 @@ form a:hover {
 /*        width: 50%;*/
 /*    }*/
 /*}*/
-
-#blogPostPage{
+#blogPostPage {
     text-align: center;
     padding-top: 40px;
-    height: 100vh;
-    background: linear-gradient(#E5E5E5,black);
-
-
+    background: linear-gradient(#E5E5E5, black);
     font-family: 'Arial', sans-serif;
     margin: 0;
 }
 
-.blog-posts-container{
-    /*display: flex;*/
-    flex-wrap: wrap;
-    /*justify-content: center;*/
-    /*gap: 30px;*/
-    padding: 50px 0;
-
-    margin: 100px 0 0 20px;
-    width: 100%;
-    height: 450px;
+.blog-posts-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px; /* Updated gap to ensure proper spacing */
+    padding: 50px 0;
+    width: 100%;
+    margin: 100px 0 0 0;
 }
 
-.blog-posts-container div{
-
-    /*background-color: black;*/
-    /*width: 40%;*/
-    /*max-width: 400px;*/
-    padding: 20px;
-    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);*/
-    /*border-radius: 10px;*/
-    /*text-align: left;*/
-
+.blog-posts-container div {
     width: 20%;
     height: 60vh;
+    padding: 20px;
     object-fit: cover;
     border-radius: 10px;
     background-color: black;
@@ -1980,12 +1963,11 @@ form a:hover {
     overflow: hidden;
 }
 
-.blog-posts-container div:hover{
+.blog-posts-container div:hover {
     width: 35%;
 }
 
 .blog-posts-container img {
-
     width: 80%;
     height: auto;
     border-radius: 10px;
@@ -1998,21 +1980,41 @@ form a:hover {
     text-align: center;
 }
 
-.projectPharagraph , .projectPharagraph2 {
+.projectPharagraph,
+.projectPharagraph2 {
     color: white;
     font-size: 1em;
     text-align: center;
 }
 
+/* Media query for tablets and mobile devices */
 @media (max-width: 768px) {
-    #blogPostPage {
-        flex-direction: column;
+    .blog-posts-container {
+        flex-direction: column; /* Stack divs vertically */
+        align-items: center; /* Center the stacked items */
     }
 
-    #blog-posts-container div {
-        width: 90%;
+    .blog-posts-container div {
+        width: 90%; /* Make each div take up more width */
+        margin-bottom: 20px; /* Add margin to separate them */
+        height: auto; /* Adjust height to fit content */
+    }
+
+    .blog-posts-container div:hover {
+        width: 90%; /* Remove hover effect for responsiveness */
+    }
+
+    .blog-posts-container img {
+        width: 100%; /* Make images fill the container */
     }
 }
+
+@media (max-width: 480px) {
+    .blog-posts-container div {
+        width: 90%; /* Make divs full width on smaller screens */
+    }
+}
+
     /*---------------------------------------------CONTACT PAGE--------------------------------------*/
 
 
