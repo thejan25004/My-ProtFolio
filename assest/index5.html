@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+
+    <style>
+
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background-image: linear-gradient(to left,
+            rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url("../assest/images/peakpx (3).jpg");
+            background-size: cover;
+            background-position: bottom center;
+            background-attachment: fixed;
+            }
+            .top {
+            position: fixed;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background: rgba(0, 0, 0, 0.277);
+            padding: 20px 0;
+            align-items: center;
+            backdrop-filter: blur(20px);
+            text-align: center;
+            margin-top: 10px;
+        }
+        .top.search {
+            width: 33.33%;
+        }
+        .top.logo {
+            width: 33.33%;
+        }
+        .top.menu {
+            width: 33.33%;
+        }
+        .top.search input {
+            width: 50%;
+            height: 35px;
+            padding: 0 15px;
+            font-size: 15px;
+            border: 2px solid #fff;
+            background: transparent;
+
+
+            border-radius: 20px;
+        }
+            .top.search input::placeholder {
+                color: #fff;
+            }
+           .top.logo p {
+                width: 100%;
+                font-size: 40px;
+                color: #fff;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            span {
+                color: rgb(200, 100, 0);
+            }
+            .top.menu a {
+                font-size: 20px;
+                color: #fff;
+            }
+            .centers {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 100%;
+                padding: 0 150px;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+            .menu-bar {
+                margin-bottom: 100px;
+            }
+            .menu-bar ul{
+                display: flex;
+                list-style: none;
+                border-bottom: 1px solid #fff;
+                padding: 0 0 25px 0;
+                justify-content: space-evenly;
+            }
+            .menu-bar ul li a {
+                color: #fff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 600;
+
+
+
+
+
+
+                transition: .5s;
+            }
+        .menu-bar ul li a:hover {
+            color: rgb(200, 100, 0);
+        }
+        .center {
+            color: #fff;
+        }
+        .center .title {
+            font-size: 55px;
+            font-family: Californian FB;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .center .sub-title {
+            width: 700px;
+            font-size: 16px;
+            /*margin: 0 auto;*/
+            margin-bottom: 45px;
+        }
+        .center .sign {
+            width: 450px;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .center.sign input {
+            width: 300px;
+            height: 50px;
+            outline: none;
+            border: none;
+            background: #fff;
+            padding: 20px;
+            font-size: 15px;
+        }
+
+        .center .sign button {
+            border: none;
+            background: rgb(200, 100, 0);
+            padding: 15px 25px;
+            color: #fff;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-weight: 600;
+        }
+    </style>
+
+</head>
+<body>
+<div class="top">
+    <div class="search">
+        <input type="search" placeholder="Search..." />
+    </div>
+    <div class="logo">
+        <p>code<span>hub</span></p>
+    </div>
+    <div class="menu">
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+    </div>
+</div>
+<div class="centers">
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">sample page</a></li>
+            <li><a href="#">page layouts</a></li>
+            <li><a href="#">our shop</a></LI>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">articles</a></li>
+        </ul>
+    </div>
+    <div class="center">
+        <div class="title">Live The Life You Deserve</div>
+        <div class="sub-title">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
+            officia ut, maxime soluta nemo iure nulla quam ipsam vero velit
+            delectus dolores ab, iusto aliquid quibusdam consequatur quaerat
+            perspiciatis in.
+        </div>
+        <div class="sign">
+            <input type="text" placeholder ="Enter Your Email" />
+            <button>Subscribe</button>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <p>Copyright 2022 CodeHub. All Rights Reserved.</p>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        main#GalleryPage {
+            background: linear-gradient(#696969,black);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 50px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+
+        main#GalleryPage > h1 {
+            color: #868686;
+            font-family: "Hammersmith One", sans-serif;
+            font-size: 4vw;
+            font-weight: 400;
+            position: absolute;
+            top: 70px;
+
+        }
+
+        main#GalleryPage > h4 {
+            color: black;
+            font-family: "Hammersmith One", sans-serif;
+            font-size: 1.5vw;
+            font-weight: bold;
+            position: absolute;
+            top: 100px;
+
+        }
+
+        /* Static Image Section with Stacking */
+        main#GalleryPage section {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 150px;
+            height: 50vh;
+            position: relative;
+            z-index: 0;
+        }
+
+        /* Stacking and Partial Hiding of Images */
+        main#GalleryPage section picture {
+            position: absolute;
+            width: 20vw;
+            height: auto;
+            border-radius: 10px;
+            opacity: 0.9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+            border: 4px solid black;
+        }
+
+        /* Position and Overlap Logic */
+        main#GalleryPage section picture:nth-child(1) {
+            left: 170px;
+            z-index: 2;
+            transform: translateX(-30%);
+        }
+
+        main#GalleryPage section picture:nth-child(2) {
+            left: 28%;
+            z-index: 3;
+            bottom: -15px;
+            transform: translateX(-30%);
+        }
+
+        main#GalleryPage section picture:nth-child(3) {
+            left: 36%;
+            z-index: 4;
+            width: 25vw;
+            bottom: -70px;
+
+        }
+
+        main#GalleryPage section picture:nth-child(4) {
+            left: 55%;
+            z-index: 3;
+            bottom: -15px;
+
+            transform: translateX(30%);
+        }
+
+        main#GalleryPage section picture:nth-child(5) {
+            left: 70%;
+            z-index: 2;
+            transform: translateX(30%);
+            bottom: 25px;
+
+        }
+
+        /* Hover effect to bring forward */
+        main#GalleryPage section picture:hover {
+            transform: scale(1.05);
+            z-index: 5;
+        }
+
+        /* Image Styling */
+        main#GalleryPage section picture img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+         Responsive adjustments for smaller screens
+        @media (max-width: 800px) {
+            main#GalleryPage {
+                height: auto;
+            }
+
+            main#GalleryPage > h1 {
+                font-size: 5vw;
+            }
+
+            main#GalleryPage > h4 {
+                font-size: 3vw;
+            }
+
+            main#GalleryPage section {
+                flex-direction: column;
+                align-items: center;
+                height: auto;
+            }
+
+            main#GalleryPage section picture {
+                width: 80%;
+                margin-bottom: 20px;
+                transform: none; /* Remove stacking on mobile */
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+<main id="GalleryPage">
+
+
+
+<h1>GALLERY</h1>
+<h4>GALLERY</h4>
+
+<section>
+    <picture>
+        <img src="../assest/images/galleryImages/4/beachnew.jpg" alt="MyFirst-Image" title="My-Image">
+    </picture>
+    <picture>
+        <img src="../assest/images/galleryImages/3/3.png" alt="MySecond-Image" title="My-Image">
+    </picture>
+    <picture>
+        <img src="../assest/images/galleryImages/1/medium.png" alt="MyThird-Image" title="My-Image">
+    </picture>
+    <picture>
+        <img src="../assest/images/galleryImages/2/new.jpg" alt="MyFourth-Image" title="My-Image">
+    </picture>
+    <picture>
+        <img src="../assest/images/galleryImages/5/menew.jpg" alt="MyFifth-Image" title="My-Image">
+    </picture>
+</section>
+</main>
+
+</body>
+</html>
