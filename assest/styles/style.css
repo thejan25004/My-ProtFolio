@@ -1438,6 +1438,20 @@ main:nth-child(5) {
 
 }
 
+#designImg{
+    width: 150px;
+    height: 150px;
+    top: 90px;
+}
+#designPharagraph{
+top: 120px;
+
+}
+
+#designLabel{
+    top: 110px;
+}
+
 #maintaince-img{
     width: 300px;
     height: 200px;
