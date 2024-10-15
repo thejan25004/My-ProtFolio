@@ -1626,9 +1626,6 @@ main#GalleryPage section picture img {
 
 
 /*-------------------------------------------ASSIGNMENT PAGE---------------------------------------- */
-body {
-
-}
 
 #assignmentPage {
     text-align: center;
@@ -1799,6 +1796,73 @@ body {
         width: 90%;
     }
 }
+
+@media (max-width: 425px) {
+    #assignmentCardSection {
+        flex-direction: column;
+    }
+
+    #assignmentCardSection div {
+        width: 80%;
+    }
+
+    .form a {
+        padding: 5px 10px;
+        /*margin-left: 0;*/
+        width: auto;
+
+        /*text-decoration: none;*/
+
+
+        border-radius: 5px;
+        margin-left: 60px;
+        margin-right: -55px;
+    }
+
+    .assignmentC3 form div label {
+        font-size: 1em;
+
+        /*background-color:rebeccapurple;*/
+        margin-right: 10px;
+    }
+
+    .assignmentC4 form div label {
+
+        /*background-color:yellow;*/
+        font-size: 0.5em;
+    }
+}
+    @media (max-width: 425px) {
+        #assignmentCardSection {
+            flex-direction: column;
+        }
+
+        #assignmentCardSection div {
+            width: 80%;
+        }
+
+        .form a {
+            padding: 5px 10px;
+            /*margin-left: 0;*/
+            width: auto;
+
+            /*text-decoration: none;*/
+
+
+            border-radius: 5px;
+            margin-left: 15px;
+            margin-right: -10px;
+        }
+
+        .assignmentC3  form div label{
+            font-size: 1em;
+        }
+
+        .assignmentC4 form div label {
+            font-size: 1em;
+        }
+
+   }
 
 
 
