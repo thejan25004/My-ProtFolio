@@ -2059,205 +2059,497 @@ top: 120px;
     /*---------------------------------------------CONTACT PAGE--------------------------------------*/
 
 
-#contactPage {
-     text-align: center;
-     background: linear-gradient(black,#696969);
+/*#contactPage {*/
+/*     text-align: center;*/
+/*     background: linear-gradient(black,#696969);*/
 
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     height: 90vh;
-     padding: 50px 20px;
-     position: relative;
+/*     display: flex;*/
+/*     flex-direction: column;*/
+/*     align-items: center;*/
+/*     justify-content: center;*/
+/*     height: 90vh;*/
+/*     padding: 50px 20px;*/
+/*     position: relative;*/
+/*}*/
+
+/*#contactPage > h1 {*/
+/*    color: #191818;*/
+/*    font-family: "Hammersmith One", sans-serif;*/
+/*    font-size: 4vw;*/
+/*    font-weight: 400;*/
+/*    position: absolute;*/
+/*    top: 40px;*/
+
+/*}*/
+
+/*#contactPage > h4 {*/
+/*    color: #B3B3B3;*/
+/*    font-family: "Hammersmith One", sans-serif;*/
+/*    font-size: 1.5vw;*/
+/*    font-weight: bold;*/
+/*    position: absolute;*/
+/*    top: 70px;*/
+
+/*}*/
+
+/*!* Contact Container *!*/
+/*.contact-container {*/
+/*    justify-content: center;*/
+/*    display: flex;*/
+/*    !*justify-content: space-between;*!*/
+/*    !*background-color: #1c1f2e;*!*/
+/*    width: 80vw;*/
+/*    height: 80vh;*/
+/*    padding: 40px;*/
+/*    top: 60px;*/
+/*    !*border-radius: 10px;*!*/
+/*    !*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);*!*/
+/*    position: relative;*/
+
+/*}*/
+
+/*!* Contact Info Section *!*/
+/*.contact-info {*/
+/*    width: auto;*/
+/*    height: 40vh;*/
+/*    background-color: black;*/
+/*    border: 1px solid white;*/
+/*    padding: 30px;*/
+/*    border-radius: 10px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    position: absolute;*/
+/*    left: -100px;*/
+/*    top: 200px;*/
+
+/*    z-index: 1;*/
+
+
+
+/*    border-top-right-radius: 20%;*/
+/*    border-bottom-left-radius: 20%;*/
+
+/*}*/
+
+/*.contact-info h3 {*/
+/*    color: white;*/
+/*    margin-bottom: 20px;*/
+/*    font-size: 1.5em;*/
+/*}*/
+
+/*.contact-info ul {*/
+/*    list-style: none;*/
+/*    color: white;*/
+/*}*/
+
+/*.contact-info ul li {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.contact-info ul li img {*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.contact-info ul li a {*/
+/*    color: #ff4500;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.social-icons {*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    margin-top: 50px;*/
+
+/*}*/
+
+/*.social-icons a img {*/
+/*    top: 290px;*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    position: absolute;*/
+/*}*/
+
+/*!* Contact Form Section *!*/
+/*.contact-form {*/
+/*    width: 90%;*/
+/*    background-color: black;*/
+/*    border: 1px solid white;*/
+/*    padding: 30px;*/
+/*    border-radius: 10px;*/
+/*    position: relative;*/
+
+
+
+/*}*/
+
+/*#formOfCustomer{*/
+/*    position: absolute;*/
+
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2,1fr);*/
+/*    justify-content: space-around;*/
+/*    left: 220px;*/
+/*    top: 150px;*/
+/*}*/
+
+/*.contact-form h3 {*/
+/*    position: absolute;*/
+/*    top: 30px;*/
+/*    font-size: 3em;*/
+/*    left: 150px;*/
+/*    color: white;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.form-group {*/
+
+/*    margin-bottom: 40px;*/
+/*    margin-left: 50px;*/
+/*    justify-content: space-around;*/
+
+
+/*}*/
+
+/*.form-group label {*/
+/*    text-align: left;*/
+/*    width: 220px;*/
+/*    !*background-color: #B3B3B3;*!*/
+/*    display: block;*/
+/*    margin-bottom: 15px;*/
+/*    font-size: 2em;*/
+/*    color: #fff;*/
+/*    margin-right: 330px;*/
+
+/*}*/
+
+/*.form-group input, .form-group textarea {*/
+/*    width: 18vw;*/
+/*    margin-left: -330px;*/
+/*    padding: 10px;*/
+/*    border-radius: 5px;*/
+/*    border: 1px solid white;*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    font-size: 1em;*/
+/*}*/
+
+/*.form-group textarea {*/
+/*    height: 80px;*/
+/*}*/
+
+/*.form-group input[type="submit"] {*/
+/*    width: 5vw;*/
+/*    text-align: center;*/
+/*    padding: 10px 20px;*/
+/*    background-color: #ff4500;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    margin-top: 80px;*/
+/*}*/
+
+/*.form-group input[type="submit"]:hover {*/
+/*    background-color: #ff5733;*/
+/*}*/
+
+
+
+/*==============================================================*/
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+#contactPage{
+    position: relative;
 }
 
 #contactPage > h1 {
-    color: #191818;
+    color:   #5E5E5E;
     font-family: "Hammersmith One", sans-serif;
-    font-size: 4vw;
-    font-weight: 400;
+    font-size: 3vw;
+   left: 800px;
     position: absolute;
-    top: 40px;
+    top: 10px;
 
 }
 
 #contactPage > h4 {
-    color: #B3B3B3;
+    color: #FFFFFF;
     font-family: "Hammersmith One", sans-serif;
     font-size: 1.5vw;
     font-weight: bold;
     position: absolute;
-    top: 70px;
+
+    top: 30px;
+    left: 800px;
+
 
 }
 
-/* Contact Container */
-.contact-container {
-    justify-content: center;
+
+body {
+    font-family: Arial, sans-serif;
+    /*background: linear-gradient(to bottom, #2c2c2c, #000);*/
+    /*color: white;*/
+}
+
+.contact-section {
     display: flex;
-    /*justify-content: space-between;*/
-    /*background-color: #1c1f2e;*/
-    width: 80vw;
-    height: 80vh;
-    padding: 40px;
-    top: 60px;
-    /*border-radius: 10px;*/
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);*/
-    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: linear-gradient( black,#E5E5E5);
 
 }
 
-/* Contact Info Section */
 .contact-info {
-    width: auto;
-    height: 40vh;
-    background-color: black;
-    border: 1px solid white;
-    padding: 30px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-    left: -100px;
-    top: 200px;
+    /*background-color:black;*/
+    background: linear-gradient(to bottom, #2c2c2c, #000);
+    border: 2px solid white;
+    padding: 20px;
+    /*border-radius: 15px;*/
+    width: 300px;
+    text-align: center;
 
-    z-index: 1;
-
-
-
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 20%;
 }
 
-.contact-info h3 {
+.contact-info h2 {
+    margin-bottom: 15px;
     color: white;
-    margin-bottom: 20px;
-    font-size: 1.5em;
 }
 
 .contact-info ul {
     list-style: none;
-    color: white;
+    padding: 0;
 }
 
 .contact-info ul li {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
 }
 
 .contact-info ul li img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
-}
+    margin-top: 10px;
 
-.contact-info ul li a {
-    color: #ff4500;
-    text-decoration: none;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: space-around;
+    /*display: flex;*/
+    display: inline;
+    justify-content: center;
+    gap: 10px;
     margin-top: 50px;
 
 }
 
-.social-icons a img {
-    top: 290px;
-    width: 40px;
-    height: 40px;
-    position: absolute;
+.social-icons a {
+    margin: 0 5px;
 }
 
-/* Contact Form Section */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
 .contact-form {
-    width: 90%;
-    background-color: black;
-    border: 1px solid white;
-    padding: 30px;
-    border-radius: 10px;
-    position: relative;
-
-
-
+    display: flex;
+    /*justify-content: space-around;*/
+    background: linear-gradient(to bottom, #2c2c2c, #000);
+    /*background-color: black;*/
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50vw;
+    /*max-width: 1000vw;*/
+    margin: 20px;
 }
 
-#formOfCustomer{
-    position: absolute;
-
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: space-around;
-    left: 220px;
-    top: 150px;
-}
-
-.contact-form h3 {
-    position: absolute;
-    top: 30px;
-    font-size: 3em;
-    left: 150px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.form-group {
-
-    margin-bottom: 40px;
+#mapImage{
+    /*display: flex;*/
+    /*display: block;*/
+    width: 80%;
     margin-left: 50px;
-    justify-content: space-around;
-
-
-}
-
-.form-group label {
-    text-align: left;
-    width: 220px;
-    /*background-color: #B3B3B3;*/
-    display: block;
-    margin-bottom: 15px;
-    font-size: 2em;
-    color: #fff;
-    margin-right: 330px;
+    align-items: center;
+    /*height: auto;*/
+    /*resize: block;*/
 
 }
 
-.form-group input, .form-group textarea {
-    width: 18vw;
-    margin-left: -330px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid white;
-    background-color: black;
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
     color: white;
     font-size: 1em;
 }
 
-.form-group textarea {
-    height: 80px;
+.form-group {
+    margin-bottom: 15px;
 }
 
-.form-group input[type="submit"] {
-    width: 5vw;
-    text-align: center;
-    padding: 10px 20px;
-    background-color: #ff4500;
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+.form-group input, .form-group textarea {
+    width: 20vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f9a825;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    margin-top: 80px;
 }
 
-.form-group input[type="submit"]:hover {
-    background-color: #ff5733;
+button:hover {
+    background-color: darkorange;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        width: 100%;
+        max-width: 400px;
+    }
+    .contact-form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 0.75em;
+    }
+
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 0.5em;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 20vw;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    textarea {
+        resize: none;
+        height: 100px;
+    }
+
+    /*#contactPage > h1 {*/
+
+    /*    font-size: 3vw;*/
+    /*    left: -1000px;*/
+
+
+
+    /*}*/
+
+    /*#contactPage > h4 {*/
+    /*    color: #FFFFFF;*/
+    /*    font-family: "Hammersmith One", sans-serif;*/
+    /*    font-size: 1.5vw;*/
+    /*    font-weight: bold;*/
+    /*    position: absolute;*/
+
+    /*    top: 60px;*/
+    /*    left: 800px;*/
+
+
+    /*}*/
+
+    /*#mapImage{*/
+    /*    height: fit-content;*/
+    /*}*/
+
 }
 
 
+
+@media (max-width: 480px) {
+    .contact-info, .contact-form {
+        width: 90%;
+    }
+
+    .contact-info ul li {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+    /*#mapImage{*/
+    /*    height: fit-content;*/
+    /*}*/
+
+    /*#contactPage > h1 {*/
+    /*    color:   #5E5E5E;*/
+    /*    font-family: "Hammersmith One", sans-serif;*/
+    /*    font-size: 3vw;*/
+    /*    left: 800px;*/
+    /*    position: absolute;*/
+    /*    top: 40px;*/
+
+    /*}*/
+
+    /*#contactPage > h4 {*/
+    /*    color: #FFFFFF;*/
+    /*    font-family: "Hammersmith One", sans-serif;*/
+    /*    font-size: 1.5vw;*/
+    /*    font-weight: bold;*/
+    /*    position: absolute;*/
+
+    /*    top: 60px;*/
+    /*    left: 800px;*/
+
+
+    /*}*/
+}
+
+
+/*==========================================*/
 #footer{
     background-color: black;
     width: 100%;
