@@ -2269,27 +2269,30 @@ top: 120px;
 
 #contactPage{
     position: relative;
+
 }
 
 #contactPage > h1 {
     color:   #5E5E5E;
     font-family: "Hammersmith One", sans-serif;
     font-size: 3vw;
-   left: 800px;
     position: absolute;
-    top: 10px;
+    left: 200px;
+    top: 150px;
+
+
 
 }
 
 #contactPage > h4 {
-    color: #FFFFFF;
+    color: white;
     font-family: "Hammersmith One", sans-serif;
     font-size: 1.5vw;
     font-weight: bold;
     position: absolute;
 
-    top: 30px;
-    left: 800px;
+    top: 170px;
+    left: 200px;
 
 
 }
@@ -2372,6 +2375,8 @@ body {
 
 .contact-form {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     /*justify-content: space-around;*/
     background: linear-gradient(to bottom, #2c2c2c, #000);
     /*background-color: black;*/
@@ -2389,6 +2394,7 @@ body {
     width: 80%;
     margin-left: 50px;
     align-items: center;
+    margin-top: 10px;
     /*height: auto;*/
     /*resize: block;*/
 
@@ -2439,7 +2445,14 @@ button:hover {
     background-color: darkorange;
 }
 
-/* Responsive Styles */
+/*!* Responsive Styles *!*/
+/*@media (max-width: 1440px) and (min-width: 1024px){*/
+/*    .contact-form {*/
+/*        display: inline;*/
+
+/*    }*/
+/*}*/
+
 @media (max-width: 768px) {
     .contact-section {
         flex-direction: column;
@@ -2465,7 +2478,7 @@ button:hover {
     }
 
     .form-group input, .form-group textarea {
-        width: 20vw;
+        width: 35vw;
         padding: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
@@ -2476,31 +2489,6 @@ button:hover {
         height: 100px;
     }
 
-    /*#contactPage > h1 {*/
-
-    /*    font-size: 3vw;*/
-    /*    left: -1000px;*/
-
-
-
-    /*}*/
-
-    /*#contactPage > h4 {*/
-    /*    color: #FFFFFF;*/
-    /*    font-family: "Hammersmith One", sans-serif;*/
-    /*    font-size: 1.5vw;*/
-    /*    font-weight: bold;*/
-    /*    position: absolute;*/
-
-    /*    top: 60px;*/
-    /*    left: 800px;*/
-
-
-    /*}*/
-
-    /*#mapImage{*/
-    /*    height: fit-content;*/
-    /*}*/
 
 }
 
@@ -2509,6 +2497,8 @@ button:hover {
 @media (max-width: 480px) {
     .contact-info, .contact-form {
         width: 90%;
+        flex-direction: column;
+
     }
 
     .contact-info ul li {
@@ -2520,32 +2510,23 @@ button:hover {
     .social-icons {
         flex-direction: column;
     }
-    /*#mapImage{*/
-    /*    height: fit-content;*/
-    /*}*/
+    #mapImage{
+        align-content: center;
 
-    /*#contactPage > h1 {*/
-    /*    color:   #5E5E5E;*/
-    /*    font-family: "Hammersmith One", sans-serif;*/
-    /*    font-size: 3vw;*/
-    /*    left: 800px;*/
-    /*    position: absolute;*/
-    /*    top: 40px;*/
+    }
 
-    /*}*/
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+        font-size: 0.5em;
+    }
 
-    /*#contactPage > h4 {*/
-    /*    color: #FFFFFF;*/
-    /*    font-family: "Hammersmith One", sans-serif;*/
-    /*    font-size: 1.5vw;*/
-    /*    font-weight: bold;*/
-    /*    position: absolute;*/
+    .form-group input, .form-group textarea {
+        width: 45vw;
 
-    /*    top: 60px;*/
-    /*    left: 800px;*/
+    }
 
-
-    /*}*/
 }
 
 
