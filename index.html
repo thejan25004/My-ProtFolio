@@ -32,16 +32,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<!--    <link >-->
 </head>
 
 <body>
@@ -55,7 +53,7 @@
            <div class="search">
                <input type="search" placeholder="Search..." />
            </div>
-           <div class="logo">
+           <div class="logo" data-aos="zoom-out">
                <p>CHAMOD<span>THEJAN</span></p>
            </div>
            <div class="menu">
@@ -77,8 +75,9 @@
                </ul>
            </div>
            <div class="center">
-               <div class="title"> <span>Hello</span> , I Am Chamod Thejan </div >
-               <div class="sub-title">
+               <div class="title" data-aos="fade-right"> <span>Hello</span> , I Am Chamod Thejan </div >
+               <div class="sub-title" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                    "As a passionate web designer and developer, I specialize in creating modern,
                    responsive, and user-friendly websites. With a strong focus on clean design,
                    intuitive navigation, and seamless user experiences, I bring ideas to life on the web"
@@ -130,7 +129,7 @@
     <section>
 
         <div>
-            <h1>ABOUT</h1>
+            <h1 >ABOUT</h1>
             <h4>ABOUT ME </h4>
         </div>
         
@@ -139,8 +138,8 @@
 
 
             <p id="fpharagraph">I am Chamod Thejan , </p> <p id="spharagraph">Web Designer & Developer</p>
-            <p id="detailspharagraph" data-aos="zoom-in-down" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
-                I excel at combining aesthetic appeal with seamless</p>
+<!--            <p id="detailspharagraph" data-aos="zoom-in-down" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.-->
+<!--                I excel at combining aesthetic appeal with seamless</p>-->
 
             <p id="detailspharagraph2"  class=" animate__animated animate__fadeInRightBig" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
                 I excel at combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience.
@@ -151,7 +150,7 @@
 
 
 
-            <input type="button" id="about-read-more" value="Read More" >
+            <input type="button" id="about-read-more" value="Read More"  >
             <input type="button" id="about-download-cv" value="Download Cv" >
 
         </div>
@@ -256,9 +255,9 @@
 
       <section id="educationDetailsSetion">
 
-          <div id="ijse" >
-                  <img src="assest/images/educationImages/R%20(7).png">
-                  <p id="ijsePharagraph">After my A/L’s examinations I started to follow GDSE program. <br> During the 2nd semester of GDSE, I got the internship at Ceyentra technologies through IJSE.<br> Even before the completion of the 4th semester Of GDSE, I became a permanent employee  <br>in the company. The knowledge gained from GDSE supported me to survive in the IT industry.</p>
+          <div id="ijse"  >
+                  <img src="assest/images/educationImages/R%20(7).png" >
+                  <p  id="ijsePharagraph">After my A/L’s examinations I started to follow GDSE program. <br> During the 2nd semester of GDSE, I got the internship at Ceyentra technologies through IJSE.<br> Even before the completion of the 4th semester Of GDSE, I became a permanent employee  <br>in the company. The knowledge gained from GDSE supported me to survive in the IT industry.</p>
           </div>
 
           <div id="esoft" >
@@ -333,7 +332,7 @@
 
     <section id="assignmentCardSection">
 
-        <div class="AssignmentC1">
+        <div class="AssignmentC1" >
             <h3>Assignment 01</h3>
             <img src="assest/images/assignmentImage/w1.jpeg" id="As1Image">
             <a href="assest/assignment/assignment01/assignment-01.html">
