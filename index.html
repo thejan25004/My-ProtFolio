@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assest/styles/style.css">
+    <link rel="stylesheet" href="assest/styles/mediaQuery.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,10 +37,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="http_unpkg.com_aos@2.3.1_dist_aos.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<!--    <link >-->
 </head>
 
 <body>
@@ -53,7 +52,7 @@
            <div class="search">
                <input type="search" placeholder="Search..." />
            </div>
-           <div class="logo" data-aos="zoom-out">
+           <div class="logo" >
                <p>CHAMOD<span>THEJAN</span></p>
            </div>
            <div class="menu">
@@ -75,9 +74,8 @@
                </ul>
            </div>
            <div class="center">
-               <div class="title" data-aos="fade-right"> <span>Hello</span> , I Am Chamod Thejan </div >
-               <div class="sub-title" data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom">
+               <div class="title" > <span>Hello</span> , I Am Chamod Thejan </div >
+               <div class="sub-title">
                    "As a passionate web designer and developer, I specialize in creating modern,
                    responsive, and user-friendly websites. With a strong focus on clean design,
                    intuitive navigation, and seamless user experiences, I bring ideas to life on the web"
@@ -108,90 +106,74 @@
 
 <!--    ABOUT PAGE-->
 <main id="AboutPage">
+    <section id="AboutpicturesSection">
+        <div class="about-picture-container" data-aos="fade-down-right">
+            <!-- Hidden hover image -->
+            <div class="hover-image"></div>
 
-
-    <section>
-
-        <div>
-            <picture  >
-                <source media="(min-width: 1500px)" srcset="assest/images/aboutImages/my.jpg" width="550" height="850">
-                <source media="(min-width: 800px)" srcset="assest/images/aboutImages/my.jpg" width="450" height="650">
-                <source media="(min-width: 760px)" srcset="assest/images/aboutImages/my.jpg" width="300" height="450">
-                <source media="(min-width: 425px)" srcset="assest/images/aboutImages/my.jpg" width="200" height="300">
-                <source media="(min-width: 300px)" srcset="assest/images/aboutImages/my.jpg" width="150" height="250">
-                <img src="assest/images/aboutImages/my.jpg" alt="DP Image" title="My DP" width="300" height="450">
+            <!-- Original picture -->
+            <picture class="about-picture">
+                <source media="(min-width: 1500px)" srcset="assest/images/aboutImages/Edit.jpg" width="750" height="800">
+                <source media="(min-width: 800px)" srcset="assest/images/aboutImages/Edit.jpg" width="850" height="1000">
+                <source media="(min-width: 760px)" srcset="assest/images/aboutImages/Edit.jpg" width="700" height="750">
+                <source media="(min-width: 425px)" srcset="assest/images/aboutImages/Edit.jpg" width="750" height="800">
+                <source media="(min-width: 300px)" srcset="assest/images/aboutImages/Edit.jpg" width="650" height="700">
+                <img src="assest/images/aboutImages/Edit.jpg" alt="DP Image" title="My DP" width="300" height="450">
             </picture>
-
         </div>
-
     </section>
 
     <section>
-
-        <div>
-            <h1 >ABOUT</h1>
-            <h4>ABOUT ME </h4>
+        <div data-aos="zoom-out-right">
+            <h1 class="h1-about">ABOUT</h1>
+            <h4>ABOUT ME</h4>
         </div>
-        
+
         <div>
+            <p id="fpharagraph" data-aos="zoom-out-right">I am Chamod Thejan,</p>
+            <p data-aos="zoom-out-right" id="spharagraph">Web Designer & Developer</p>
 
-
-
-            <p id="fpharagraph">I am Chamod Thejan , </p> <p id="spharagraph">Web Designer & Developer</p>
-<!--            <p id="detailspharagraph" data-aos="zoom-in-down" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.-->
-<!--                I excel at combining aesthetic appeal with seamless</p>-->
-
-            <p id="detailspharagraph2"  class=" animate__animated animate__fadeInRightBig" >With years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
-                I excel at combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience.
-                I excel at combining aesthetic appeal with seamless functionality, functionality, ensuring that every project I undertake not only meets but exceeds expectations.years of experience in crafting beautiful and functional websites, I strive to create designs that not only look stunning but also provide an excellent user experience. My expertise spans a wide range of web technologies and design principles, allowing me to bring any vision to life.
-                I excel at combining aesthetic appeal with seamless functionality
+            <p id="detailspharagraph2" data-aos="zoom-out-right">
+                With years of experience in crafting beautiful and functional websites, I strive to create designs
+                that not only look stunning but also provide an excellent user experience. My expertise spans a wide
+                range of web technologies and design principles, allowing me to bring any vision to life. I excel at
+                combining aesthetic appeal with seamless functionality, ensuring that every project I undertake not
+                only meets but exceeds expectations.
             </p>
 
-
-
-
-            <input type="button" id="about-read-more" value="Read More"  >
-            <input type="button" id="about-download-cv" value="Download Cv" >
-
+            <input type="button" id="about-read-more" value="Read More" data-aos="zoom-out-right">
+            <input type="button" id="about-download-cv" value="Download Cv" data-aos="zoom-out-right">
         </div>
 
-
-        <div >
-
+        <div data-aos="zoom-out-right">
             <div>
-                <div >Name :</div>
-                <div class="person">R.Chamod Thejan</div>  <br>
+                <div>Name :</div>
+                <div class="person">R. Chamod Thejan</div><br>
             </div>
-
             <div>
                 <div>Email :</div>
-                <div class="person">thejanchamod9@gmail.com</div>  <br>
+                <div class="person">thejanchamod9@gmail.com</div><br>
             </div>
-
             <div>
-                <div >Phone :</div>
-                <div class="person">0769378524</div>   <br>
+                <div>Phone :</div>
+                <div class="person">0769378524</div><br>
             </div>
-
             <div>
-                <div >Twitter :</div>
-                <div class="person">xDesgnChamod1 </div>  <br>
+                <div>Twitter :</div>
+                <div class="person">xDesgnChamod1</div><br>
             </div>
-
-
         </div>
-
     </section>
+</main>
 
-  </main>
 
 
 <!--   Skills PAGE -->
 <main id="Skills">
-    <h1 >SKILLS</h1>
-    <h4>What I Know</h4>
+    <h1 data-aos="zoom-in-down">SKILLS</h1>
+    <h4 data-aos="zoom-in-up">What I Know</h4>
 
-    <div class="container">
+    <div class="container" data-aos="zoom-out-right">
         <div class="card">
             <div class="imgBx">
                 <img src="assest/images/skillsImage/cssDark.jpeg" alt="CSS Logo">
@@ -223,7 +205,7 @@
         </div>
     </div>
 
-    <div class="container2">
+    <div class="container2"  data-aos="zoom-out-left">
         <div class="card2">
             <div class="imgbx2">
                 <img src="assest/images/skillsImage/WFigma.png" alt="Figma Logo">
@@ -250,27 +232,27 @@
 <!--   EDUCATION PAGE -->
 <main id="EducationPage">
 
-      <h1 >EDUCATION</h1>
-      <h4>EDUCATION </h4>
+      <h1 data-aos="zoom-in-down" >EDUCATION</h1>
+      <h4 data-aos="zoom-in-up">EDUCATION </h4>
 
       <section id="educationDetailsSetion">
 
-          <div id="ijse"  >
+          <div id="ijse"  data-aos="fade-up-right" >
                   <img src="assest/images/educationImages/R%20(7).png" >
                   <p  id="ijsePharagraph">After my A/L’s examinations I started to follow GDSE program. <br> During the 2nd semester of GDSE, I got the internship at Ceyentra technologies through IJSE.<br> Even before the completion of the 4th semester Of GDSE, I became a permanent employee  <br>in the company. The knowledge gained from GDSE supported me to survive in the IT industry.</p>
           </div>
 
-          <div id="esoft" >
+          <div id="esoft"  data-aos="fade-up-left">
                  <img src="assest/images/educationImages/idosobyRNY.png" >
                  <p id="esoftPharagraph">This course allows a student to obtain a British degree in IT via the Pearson HND Programme. Pearson HND serves as the Level 4 and Level 5 of the Undergraduate Programme (Year 1 & Year 2) whereas the final year (Level 6) can be chosen from either Kingston University or London Metropolitan University</p>
           </div>
 
-          <div id="nsbm" >
+          <div id="nsbm"   data-aos="fade-up-right">
                  <img src="assest/images/educationImages/nsbm.png" >
                  <p id="nsbmpharagraph">This course allows a student to obtain a British degree in IT via the Pearson HND Programme. Pearson HND serves as the Level 4 and Level 5 of the Undergraduate Programme (Year 1 & Year 2) whereas the final year (Level 6) can be chosen from either Kingston University or London Metropolitan University</p>
           </div>
 
-          <div id="britishway">
+          <div id="britishway"  data-aos="fade-up-left">
                  <img src="assest/images/educationImages/logo%20(1).png"  id="dpEducation">
                  <p id="britishpharagraph">This course allows a student to obtain a British degree in IT via the Pearson HND Programme. Pearson HND serves as the Level 4 and Level 5 of the Undergraduate Programme (Year 1 & Year 2) whereas the final year (Level 6) can be chosen from either Kingston University or London Metropolitan University</p>
           </div>
@@ -283,11 +265,12 @@
 <!--   SERVICES PAGE -->
 <main id="servicesPage">
 
-    <h1>Services</h1>
-    <h4>Services </h4>
+    <h1 data-aos="zoom-in-down">Services</h1>
+    <h4  data-aos="zoom-in-up">Services </h4>
 
 
-    <section class="service">
+
+    <section class="service"  data-aos="zoom-out-up">
         <div class="design" >
             <img src="assest/images/servicesImages/designicon.webp" alt="design" id="designImg">
             <label id="designLabel">Design</label>
@@ -309,16 +292,18 @@
 <!--    GALLERY PAGE-->
 <main id="GalleryPage">
 
-    <h1>GALLERY</h1>
-    <h4>GALLERY</h4>
+    <h1  data-aos="zoom-in-down">GALLERY</h1>
+    <h4 data-aos="zoom-in-up">GALLERY</h4>
 
-    <section>
-            <img src="assest/images/galleryImages/WhatsApp%20Image%202024-10-15%20at%2016.53.23_7dca996c.jpg" alt="MyFifth-Image" title="My-Image">
-            <img src="assest/images/galleryImages/4/beachnew.jpg" alt="MyFirst-Image" title="My-Image">
-            <img src="assest/images/galleryImages/3/3.png" alt="MySecond-Image" title="My-Image">
-            <img src="assest/images/galleryImages/1/medium.png" alt="MyThird-Image" title="My-Image">
-            <img src="assest/images/galleryImages/5/menew.jpg" alt="MyFifth-Image" title="My-Image">
-            <img src="assest/images/galleryImages/WhatsApp%20Image%202024-10-15%20at%2016.53.24_836465b8.jpg" alt="MyFifth-Image" title="My-Image">
+    <section data-aos="fade-up"
+             data-aos-duration="3000">
+            <img src="assest/images/galleryImages/WhatsApp%20Image%202024-10-15%20at%2016.53.23_7dca996c.jpg" alt="MyFifth-Image" title="My-Image" class="up">
+            <img src="assest/images/galleryImages/4/beachnew.jpg" alt="MyFirst-Image" title="My-Image" class="down">
+            <img src="assest/images/galleryImages/3/3.png" alt="MySecond-Image" title="My-Image"  class="up">
+            <img src="assest/images/galleryImages/1/medium.png" alt="MyThird-Image" title="My-Image" class="down">
+            <img src="assest/images/galleryImages/5/menew.jpg" alt="MyFifth-Image" title="My-Image"  class="up">
+            <img src="assest/images/galleryImages/WhatsApp%20Image%202024-10-15%20at%2016.53.24_836465b8.jpg" alt="MyFifth-Image" title="My-Image" class="down">
+        <img src="assest/images/galleryImages/new'/WhatsApp%20Image%202024-10-22%20at%2020.47.23_cad4981d.jpg" alt="MyFifth-Image" title="My-Image"  class="up">
 
     </section>
 </main>
@@ -327,10 +312,10 @@
 <!--    ASSIGNMENT  PAGE-->
 <main id="assignmentPage">
 
-    <h1>ASSIGNMENT</h1>
-    <h4>ASSIGNMENT</h4>
+    <h1 data-aos="zoom-in-down">ASSIGNMENT</h1>
+    <h4 data-aos="zoom-in-up">ASSIGNMENT</h4>
 
-    <section id="assignmentCardSection">
+    <section id="assignmentCardSection"   data-aos="zoom-in">
 
         <div class="AssignmentC1" >
             <h3>Assignment 01</h3>
@@ -450,10 +435,12 @@
 
 <!--    BLOGPOST  PAGE-->
 <main id="blogPostPage">
-    <h1>BLOG POST</h1>
-    <h4>RECENT BLOG POST</h4>
 
-    <section class="blog-posts-container">
+    <h1 data-aos="zoom-in-down">BLOG POST</h1>
+    <h4 data-aos="zoom-in-up">RECENT BLOG POST</h4>
+
+    <section class="blog-posts-container" data-aos="fade-up"
+             data-aos-anchor-placement="bottom-bottom">
 
         <div id="blog-post1">
             <picture>
@@ -509,14 +496,13 @@
 
 <!--    CONTACT  PAGE-->
 <main id="contactPage">
-
-            <h1>CONTACT</h1>
-            <h4>CONTACT WITH ME</h4>
+            <h1  data-aos="zoom-in-down">CONTACT</h1>
+            <h4  data-aos="zoom-in-up">CONTACT WITH ME</h4>
     <section class="contact-section">
 
 
 
-        <div class="contact-info">
+        <div class="contact-info" data-aos="fade-right">
             <h2>Contact Info</h2>
             <ul>
                 <li><img src="assest/icons/icons8-email-48.png" alt="Email Icon"> thejanchamod9@gmail.com</li>
@@ -530,7 +516,7 @@
                 <a href="#"><img src="assest/icons/icons8-email-48.png" alt="LinkedIn Icon"></a>
             </div>
         </div>
-        <div class="contact-form">
+        <div class="contact-form"  data-aos="fade-left">
 
             <form>
 
@@ -570,7 +556,11 @@
     </footer>
 
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="script.js"></script>
+
+<script src="http_unpkg.com_aos@2.3.1_dist_aos.js"></script>
 
 <script>
     AOS.init();
