@@ -869,7 +869,8 @@ main#GalleryPage > h4 {
 #GalleryPage{
     text-align: center;
     padding-top: 40px;
-    background-color: black;
+    /*background-color: black;*/
+    background: linear-gradient(black,#100c08);
     font-family: 'Arial', sans-serif;
     margin: 0;
 }
@@ -1032,7 +1033,12 @@ main#GalleryPage > h4 {
 }
 
 
+.pharagraphOfAssignment{
+    font-size: 0.75em;
+    margin-top: 50px;
+    font-family: "Hammersmith One", sans-serif;
 
+}
 
 .assignmentC4 form {
     margin-top: 20px;
