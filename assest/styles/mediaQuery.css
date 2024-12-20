@@ -722,6 +722,8 @@
         margin-top: -28px;
     }
 
+
+
     /*!* !*----------------Blog Post Page-----------------*!*!*/
 
     main#blogPostPage > h4 {
@@ -1495,6 +1497,9 @@
 
     }
 
+    .NameofAssignment{
+        font-size: 1em;
+    }
 
     /*!* !*----------------Blog Post Page-----------------*!*!*/
 
