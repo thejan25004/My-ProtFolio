@@ -894,6 +894,9 @@
 
     }
 
+    .NameofAssignment{
+        font-size: 1em;
+    }
 
     /*!* !*----------------Blog Post Page-----------------*!*!*/
 
@@ -1314,6 +1317,10 @@
 
     }
 
+    .NameofAssignment{
+        font-size: 1em;
+    }
+
     /*!* !*----------------Blog Post Page-----------------*!*!*/
 
     main#blogPostPage > h1 {
@@ -1347,6 +1354,7 @@
         left: 60px;
         font-size: 3vw;
     }
+
 
 
 }
